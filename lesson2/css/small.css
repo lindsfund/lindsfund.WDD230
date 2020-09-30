@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.25;
 
 }
@@ -13,13 +13,13 @@ footer {
 }
 
 main {
-    max-width: 767px;
+    max-width: 1000px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 15px;
     grid-column-gap: 30px;
-    font-size: .75rem;
+    font-size: 1rem;
     color: #303030;
 }
 
@@ -73,4 +73,8 @@ footer h3 {
  
 footer a:visited{
     color:aqua;
+}
+
+footer a:link {
+    color: lightskyblue;
 }
