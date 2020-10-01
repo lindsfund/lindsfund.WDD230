@@ -1,0 +1,57 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+header,
+footer {
+    background-color: #266399;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+}
+nav,
+main {
+ margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #DAE6E6;
+    overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #303030;
+    text-align: center;
+    text-decoration: none;
+	padding: 0.75rem;
+	font-size: 0.95rem;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 1em;
+}
+h6 {
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.siteTitle{
+    font-size: 4em;
+}
+
+.title {
+    border-bottom:2px solid #266399;
+}

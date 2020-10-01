@@ -1,0 +1,35 @@
+table,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+table{
+  width:100%;
+  text-align: center;
+ 
+}
+
+tr:nth-child(1) {
+  background-color:#F2D377;
+}
+
+tr:nth-child(2) {
+  background-color:#266399;
+}
+
+tr:nth-child(3) {
+  background-color:#F17547;
+}
+
+tr:nth-child(4) {
+  background-color:#202020;
+  color:#F0F0F0;
+}
+
+tr:nth-child(5) {
+  background-color:#F0F0F0;
+}
+
