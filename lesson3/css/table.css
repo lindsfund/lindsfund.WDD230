@@ -12,16 +12,24 @@ table{
  
 }
 
+.darkBl{
+  background-color: #204f8c;
+}
+
+.lightBl{
+  background-color: #517ea6;
+}
 tr:nth-child(1) {
   background-color:#F2D377;
 }
 
 tr:nth-child(2) {
-  background-color:#266399;
+  background-color: #f17547;
 }
 
 tr:nth-child(3) {
-  background-color:#F17547;
+  background-color:#235b8c;
+
 }
 
 tr:nth-child(4) {
@@ -31,5 +39,8 @@ tr:nth-child(4) {
 
 tr:nth-child(5) {
   background-color:#F0F0F0;
+}
+tr:nth-child(6) {
+  background-color:#dae6e6;
 }
 

@@ -12,9 +12,9 @@ footer {
     text-align: center;
     padding: 15px;
 }
-nav,
+
 main {
- margin: 10px;
+ margin: 15px;
 }
 
 nav ul {
@@ -48,9 +48,11 @@ h6 {
     font-size: .8em;
 }
 
-.siteTitle{
-    font-size: 4em;
+main img {
+    float: none;
+    max-width: 300px;
 }
+
 
 .title {
     border-bottom:2px solid #266399;
