@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DOC_Description">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="../lesson3/images/Weather-site-Icon-2White.png" alt="Sunshine or Snowflakes Logo">
+        </picture>
+        <section class= "heading">
+            <h1>Sunshine or Snowflakes</h1>
+            <h5>Outside no matter what</h5>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="cityName">
+            <h2>Preston Idaho</h2>
+        </section>
+        <section>
+            <div>Hero w/ weather summary</div>
+            <div>5 day forcast</div>
+            <div>Article</div>
+            <div>Contact Information</div>
+        </section>
+    </main>
+    <footer>
+        <h3>
+            &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
+        </h3>
+    
+    </footer>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
