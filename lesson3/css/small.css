@@ -2,6 +2,8 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     line-height: 1.25;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 header,
@@ -10,6 +12,15 @@ footer {
     color: #f0f0f0;
     text-align: center;
     padding: 15px;
+}
+
+header a:link,
+footer a:link {
+    color: #f17547 ;
+}
+header a:link,
+footer a:visited {
+    color: #F2D377;
 }
 
 main {
@@ -33,6 +44,17 @@ nav ul li a {
 	padding: 0.75rem;
 }
 
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+
+}
+
 h3,
 h4 {
     font-weight: 400;
@@ -52,7 +74,7 @@ main img {
     max-width: 300px;
 }
 
-
 .title {
     border-bottom:2px solid #266399;
 }
+
