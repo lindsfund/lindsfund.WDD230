@@ -28,6 +28,7 @@ header {
     justify-content: center;
 
 }
+
 header picture img {
     max-width: 125px;
 }
@@ -38,7 +39,7 @@ section h1 {
 
 section h5 {
     font-style: italic;
-    color:#F2D377;
+    color:#dae6e6;
     padding:5px;
     margin:0;
 }
@@ -57,7 +58,7 @@ nav button {
 nav ul {
     list-style-type: none;
     padding:0;
-    margin:0, auto;
+    margin:0 auto;
 }
 
 nav ul li a{
@@ -112,6 +113,10 @@ h5 {
 h6 {
     font-weight: 200;
     font-size: .8em;
+}
+
+footer a {
+    color: #dae6e6;
 }
 
 /*-----Clearfix: Force and Element not to collapse -----*/

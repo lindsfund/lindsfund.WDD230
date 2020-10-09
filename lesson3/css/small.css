@@ -14,16 +14,6 @@ footer {
     padding: 15px;
 }
 
-header a:link,
-footer a:link {
-    color: #f17547 ;
-}
-header a:link,
-footer a:visited {
-    color:  #f17547 ;
-
-}
-
 main {
  margin: 15px;
 }
@@ -77,5 +67,9 @@ main img {
 
 .title {
     border-bottom:2px solid #266399;
+}
+
+footer a{
+    color:#dae6e6;
 }
 
