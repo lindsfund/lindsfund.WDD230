@@ -77,7 +77,7 @@ nav ul li a:hover {
 
 nav ul li .active {
     background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    color: #f0f0f0;
 }
 
 nav ul.hide {
