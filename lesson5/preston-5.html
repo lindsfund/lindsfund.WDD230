@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DOC_Description">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="images/Weather site Icon SF edit_Small with snowflake.png" alt="Sunshine or Snowflakes Logo">
+        </picture>
+        <section class= "heading">
+            <h1>Sunshine or Snowflakes</h1>
+            <h5>Outside no matter what</h5>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu </button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+            <h2 class="cityName">Preston Idaho</h2>
+            <div class="herodiv">
+                <img src="images/Preston Hero OptFinal.jpg" alt="Hero Image of farmscape">
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">Sunny</span></p>
+                <p>High: <span id="high">76 F</span></p>
+                <p>Wind Chill: <span id="windChill">0 F</span></p>
+                <p>Wind Speed: <span id="windSpeed">5 mph</span></p>
+                <p>Humidity: <span id="humidity">69%</span></p>
+
+            </section></div>
+            <div>5 day forcast</div>
+            <div>Article</div>
+            <div>Contact Information</div>
+    </main>
+    <footer>
+        <h3>
+            &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
+        </h3>
+        <a href="../index.html">Assignment List Page</a>
+    
+    </footer>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
