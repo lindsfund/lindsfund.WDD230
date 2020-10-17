@@ -218,7 +218,7 @@ footer a {
 
 /*------ Conditional Banner ------*/
 .condBanner {
-    display:block;
+    display:none;
     background-color: #F17547;
     color: #303030;
     text-align: center;
