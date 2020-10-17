@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DOC_Description">
+    <meta name="Preston Town Page" content="will consist of a weather summary, 5 day forcast, Article with picture, and contact info">
     
-    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -18,34 +18,35 @@
 <body>
     <header>
         <picture>
-            <img src="../lesson3/images/Weather-site-Icon-2White.png" alt="Sunshine or Snowflakes Logo">
+            <img src="images/logo_.png" alt="Sunshine or Snowflakes Logo">
         </picture>
         <section class= "heading">
             <h1>Sunshine or Snowflakes</h1>
-            <h5>Outside no matter what</h5>
+            <h3>Outside no matter what</h3>
         </section>
     </header>
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <section class="cityName">
-            <h2>Preston Idaho</h2>
-        </section>
+            <h2 class="cityName">Preston Idaho</h2>
             <div>Hero w/ weather summary</div>
             <div>5 day forcast</div>
             <div>Article</div>
             <div>Contact Information</div>
     </main>
     <footer>
-        <h3>
+        <p>
             &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
-        </h3>
+        </p>
         <a href="../index.html">Assignment List Page</a>
     
     </footer>
