@@ -216,6 +216,18 @@ footer a {
     color: #dae6e6;
 }
 
+/*------ Conditional Banner ------*/
+.condBanner {
+    display:block;
+    background-color: #F17547;
+    color: #303030;
+    text-align: center;
+}
+
+.condBanner h2 {
+    margin: 0 auto;
+}
+
 /*-----Clearfix: Force and Element not to collapse -----*/
 .clearfix:after {
     content: "";
