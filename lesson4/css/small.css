@@ -1,4 +1,4 @@
-html{
+html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -7,8 +7,8 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     line-height: 1.25;
-    margin:0 auto;
-    padding:0;
+    margin: 0 auto;
+    padding: 0;
     float: none;
     max-width: 1000px;
 }
@@ -34,50 +34,54 @@ header picture img {
 }
 
 section h1 {
-    margin:0px;
+    margin: 0px;
 }
 
 section h3 {
     font-style: italic;
-    color:#dae6e6;
-    padding:5px;
-    margin:0;
+    color: #dae6e6;
+    padding: 5px;
+    margin: 0;
 }
-nav{
-    background-color:#dae6e6;
+
+nav {
+    background-color: #dae6e6;
 }
 
 nav button {
     margin: .2rem 2%;
     background-color: transparent;
-    border:none;
+    border: none;
     font-size: 1.6rem;
     color: #303030;
 }
 
 nav ul {
     list-style-type: none;
-    padding:0;
-    margin:0 auto;
+    padding: 0;
+    margin: 0 auto;
 }
 
-nav ul li a{
-    display: block;
-    color: #303030;
-    text-align: center;
-    text-decoration: none;
+nav ul li {
+    display: flex;
+    flex-flow: row nowrap;
     font-size: 0.95rem;
     padding: .8rem 2%;
-    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
+nav ul li a {
+    color: #303030;
+    text-decoration: none;
 }
 
-nav ul li .active {
-    background-color: rgba(0,0,0,0.2);
-    color: #f0f0f0;
+nav ul .active {
+    background-color: #235B8C;
+    color: #dae6e6;
+}
+
+nav ul a:hover {
+    background-color: rgba(38, 100, 153, 0.4);
+    font-weight: 200;
 }
 
 nav ul.hide {
@@ -93,13 +97,19 @@ nav ul.hide {
 
 }
 
+main {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 main div {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 5px;
     border: 1px dotted #303030;
     font-style: italic;
 }
+
 h1 {
     font-family: 'Lora', serif;
     font-weight: 700;
@@ -115,6 +125,7 @@ h3 {
     font-weight: 200;
     font-size: 1em;
 }
+
 h4 {
     font-weight: 400;
 }
@@ -123,6 +134,7 @@ h5 {
     font-weight: 200;
     font-size: 1em;
 }
+
 h6 {
     font-weight: 200;
     font-size: .8em;
@@ -133,8 +145,8 @@ footer a {
 }
 
 /*-----Clearfix: Force and Element not to collapse -----*/
-.clearfix:after{
-    content:"";
+.clearfix:after {
+    content: "";
     display: table;
     clear: both;
 }

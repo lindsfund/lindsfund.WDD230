@@ -1,29 +1,39 @@
-@media only screen and (min-width:35em){
+@media only screen and (min-width:635px) {
 
-    nav button{
-        display:none;
+    nav button {
+        display: none;
     }
 
-    nav ul.hide{
-        display: block;
+    nav ul.hide {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
     }
 
-    nav ul{
-        margin-left: 2%;
+    nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-evenly;
+        justify-content: space-evenly;
     }
 
-    nav ul li{
-        display:flex;
-        flex-direction: row;
-        
-        width: 100%;
-         
+    nav ul li {
+        display: flex;
+        flex-flow: row nowrap;
+        font-size: 1rem;
+        padding: 0;
     }
 
     nav ul li a {
+        flex: 1 1 auto;
         border: none;
-        border-right: 1px solid rgba(0,0,0,0.5);
         padding: .6rem 1rem;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(38, 100, 153, 0.4);
+        font-weight: 200;
     }
 
 }
