@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     padding: 0;
     float: none;
-    max-width: 1000px;
+    
 }
 
 header,
@@ -46,6 +46,7 @@ section h3 {
 
 nav {
     background-color: #dae6e6;
+    
 }
 
 nav button {
@@ -59,6 +60,7 @@ nav button {
 nav ul {
     list-style-type: none;
     padding: 0;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
