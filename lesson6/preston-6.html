@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Preston Town Page"
+    <meta name="description"
         content="will consist of a weather summary, 5 day forcast, Article with picture, and contact info">
 
+    <link rel="shortcut icon" href="images/Weather site Favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
 
-    <title>Preston Town Page Wk05</title>
+    <title>Preston Town Page Wk06</title>
 </head>
 
 <body>
@@ -45,7 +46,7 @@
         <h2 class="cityName">Preston Idaho</h2>
         <div class="herodiv">
             <img src="images/heroImage1100.jpg" alt="Hero Image of landscape" sizes="60vw"
-            srcset="images/heroImage500.jpg 500w, images/heroImage800.jpg 800w, images/heroImage1100.jpg 1100w">
+                srcset="images/heroImage500.jpg 500w, images/heroImage800.jpg 800w, images/heroImage1100.jpg 1100w">
             <section class="stats">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="current">Sunny</span></p>
@@ -55,14 +56,9 @@
                 <p>Humidity: <span id="humidity">6</span>%</p>
             </section>
         </div>
-        <div class="forcast">
-            <h2> Five Day Forcast </h2>
+        <div class="forecast">
+            <h2> Five Day Forecast </h2>
             <div class="forColumn">
-                <div class="column">
-                    <span class="colHead">Su</span>
-                    <img src="images/cloudy.png" alt="cloudy">
-                    <span class="colTemp">High</span>
-                </div>
                 <div class="column">
                     <span class="colHead">Mo</span>
                     <img src="images/hot.png" alt="heat">
@@ -88,16 +84,11 @@
                     <img src="images/sun.png" alt="sunny">
                     <span class="colTemp">High</span>
                 </div>
-                <div class="column">
-                    <span class="colHead">Sa</span>
-                    <img src="images/wind.png" alt="windy">
-                    <span class="colTemp">High</span>
-                </div>
             </div>
         </div>
-        <div class="article">
+        <div class="article clearfix">
             <h2>Article title</h2>
-            <img src="images/placeholder.jpg" alt="image place holder">
+            <img src="images/mountainview.jpg" alt="Mountain View">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Sapiente voluptas doloremque ad saepe laborum facilis quisquam
                 quae. Illo vel ab neque possimus perferendis quisquam, praesentium
@@ -106,33 +97,35 @@
 
     </main>
     <footer>
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <address>
-                &#x1f4cc; 1234 Stormy Way <br>
-                Preston ID 83263
-            </address>
-            <p>&#9993; emailaddress@email.com</p>
-            <p>&#9742; (555)555-0169</p>
-            <div class="social">
-                <img src="images/facebook.png" alt="white facebook icon">
-                <img src="images/instagram.png" alt="white instagram icon">
-                <img src="images/youtube.png" alt="white youtube icon">
+        <div class=fBlock>
+            <div class="contact">
+                <h2>Contact Information</h2>
+                <address>
+                    &#x1f4cc; 1234 Stormy Way <br>
+                    Preston ID 83263
+                </address>
+                <p>&#9993; emailaddress@email.com</p>
+                <p>&#9742; (555)555-0169</p>
+                <div class="social">
+                    <img src="images/facebook.png" alt="white facebook icon">
+                    <img src="images/instagram.png" alt="white instagram icon">
+                    <img src="images/youtube.png" alt="white youtube icon">
+                </div>
             </div>
+            <div class="map">
+                <img src="images/mapPhoto.jpeg" alt="Map image of south east idaho">
+            </div>
+            <p class="footBar">
+                &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
+            </p>
         </div>
-        <div class="map">
-            <img src="images/mapPhoto.jpeg" alt="Map image of south east idaho">
-        </div>
-        <p class="footBar">
-            &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
-        </p>
     </footer>
-    
+
     <script src="js/condBanner.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
-   <script src="js/fontFamilies.js"></script>
-   <script src="js/windChill.js"></script>
+    <script src="js/fontFamilies.js"></script>
+    <script src="js/windChill.js"></script>
 
 </body>
 

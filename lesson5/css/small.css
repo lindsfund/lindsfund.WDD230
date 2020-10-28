@@ -82,7 +82,6 @@ nav ul .active {
 
 nav ul a:hover {
     background-color: rgba(38, 100, 153, 0.4);
-    font-weight: 200;
 }
 
 nav ul.hide {
@@ -98,7 +97,7 @@ nav ul.hide {
 
 }
 
-main {
+main{
     max-width: 950px;
     margin: 0 auto;
 }
@@ -133,37 +132,39 @@ main div {
 
 /*--------5 day Forcast--------*/
 
-.forcast {
- border: 1px solid #303030;
- background:#DAE6E6 ;
- font-style: normal;
- text-align: center;
-}
-.forColumn {
-    display:none;
+.forecast {
+ display:none;
 }
 
+
 /*------ Article ------*/
+
 .article h2 {
+    margin:auto;
     text-align: center;
     font-style: normal;
 }
 
 .article img {
+    width:100%;
     max-width: 300px;
+    float:left;
+    padding:10px;
    
 }
 
+.article p {
+    margin: auto;
+}
+
 /*------ Contacts ------*/
-footer {
+.fBlock {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .contact {
@@ -175,12 +176,13 @@ order:1;
 }
 
 .map img{
-    max-width:400px;
+    max-width:350px;
     width:100%;
 }
 
 .footBar {
     order: 3;
+    width: 100%;
    
 }
 

@@ -12,28 +12,18 @@
     }
 
     nav ul {
-        display: flex;
-        flex-flow: row nowrap;
         align-content: space-evenly;
         justify-content: space-evenly;
     }
 
     nav ul li {
-        display: flex;
-        flex-flow: row nowrap;
         font-size: 1rem;
         padding: 0;
     }
 
     nav ul li a {
-        flex: 1 1 auto;
         border: none;
         padding: .6rem 1rem;
-    }
-
-    nav ul li a:hover {
-        background-color: rgba(38, 100, 153, 0.4);
-        font-weight: 200;
     }
 
     /* ------Hero image------ */
@@ -48,13 +38,11 @@
         top: 15px;
         right: 15px;
         background: rgba(242, 211, 119, 0.9);
-        border: 1px solid #303030;
         box-shadow: 0 0 30px #303030;
     }
 
     .stats h2 {
         margin: 5px auto;
-        text-decoration: underline;
     }
 
     .stats p {
@@ -62,7 +50,12 @@
     }
 
     /*------ 5 day forcast ------*/
-    .forcast {
+    .forecast {
+        display:block;
+        border: 1px solid #303030;
+        background: #DAE6E6;
+        font-style: normal;
+        text-align: center;
         margin: 0;
         padding: 0;
     }
@@ -101,23 +94,18 @@
 
     /*------ Contacts ------*/
 
-    footer {
+    .fBlock {
         flex-flow: row wrap;
-        align-content: space-evenly;
-        justify-content: space-evenly;
     }
 
     .contact {
         order: 2;
+        margin:5px;
     }
 
     .map {
         order: 1;
+        margin: 5px;
     }
-
-    .footBar {
-        order: 3;
-    }
-
 
 }
