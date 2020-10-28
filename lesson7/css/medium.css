@@ -1,0 +1,6 @@
+@media only screen and (min-width:635px){
+.grid1{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
