@@ -9,7 +9,7 @@ img[data-src]{
 
 img{
     display: block;
-    margin: 250px auto;
+    margin: 50px auto;
     min-width: 50px;
     min-height: 50px;
     filter: blur(0em);

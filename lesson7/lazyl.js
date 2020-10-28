@@ -5,7 +5,7 @@ const photo = document.querySelectorAll("img[data-src]");
 //settings for the InstersectionObserver
 const options = {
     threshold: 0,
-    rootMargin: "0px 0px 200px 0px"
+    rootMargin: "0px 0px 50px 0px"
   };
 
 
