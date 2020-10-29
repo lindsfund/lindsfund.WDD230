@@ -1,10 +1,12 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 935px) {
     nav ul li a {
         padding: .6rem 1rem;
     }
 
     .grid1{
         grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+        align-content: center;
+        justify-content: center;
     }
 
     .imgBox:hover {
