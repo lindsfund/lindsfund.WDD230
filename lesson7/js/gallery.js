@@ -35,3 +35,5 @@ const observer = new IntersectionObserver(function(entries, observer) {
 photo.forEach((img) => {
         observer.observe(img);
     });
+
+    

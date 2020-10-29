@@ -1,55 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description"
+    content="">
+
+    <link rel="shortcut icon" href="images/Weather site Favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <title>Gallery</title>
 </head>
+
 <body>
-    <h1>Weather Gallery</h1>
-    <div class="grid1">
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/1000/400/300"  alt="Snowy Mountain">
-            <p>Cloudy sky over a snowy hill.</p>
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="Sunshine or Snowflakes Logo">
         </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/1019/400/300"  alt="cloudy beach">
-            <p>Storm clouds over a beach.</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/1021/400/300"  alt="foggy trees">
-            <p>A dense fog in forest</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/149/400/300"  alt="lightning strike">
-            <p>Lightning strike from a thunderstorm</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/178/400/300"  alt="rain on window">
-            <p>Rain on a window</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/179/400/300"  alt="sunrise over rocky beach">
-            <p>Sunny day at a rocky beach</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/256/400/300"  alt="snowy mountains">
-            <p>Cloudy day over a snowy mountain</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/538/400/300"  alt="bird in the snow clouds">
-            <p>Bird in a fog over snowy mountains</p>
-        </picture>
-        <picture class="imgBox">
-            <img src="https://via.placeholder.com/400X300" data-src="https://picsum.photos/id/539/400/300"  alt="snowing at the train station">
-            <p>Snow falling infront of a train window</p>
-        </picture>
-    </div>
-    
- <script src="gallery.js"></script>   
+        <section class="heading">
+            <h1>Sunshine or Snowflakes</h1>
+            <h3>Outside no matter what</h3>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu </button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class="active" href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="grid1">
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/1000/300/300"
+                    alt="Snowy Mountain">
+                <figcaption>Cloudy sky over a snowy hill.</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/1019/300/300"
+                    alt="cloudy beach">
+                <figcaption>Storm clouds over a beach.</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/1021/300/300"
+                    alt="foggy trees">
+                <figcaption>A dense fog in forest</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/149/300/300"
+                    alt="lightning strike">
+                <figcaption>Lightning strike from a thunderstorm</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/178/300/300"
+                    alt="rain on window">
+                <figcaption>Rain on a window</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/179/300/300"
+                    alt="sunrise over rocky beach">
+                <figcaption>Sunny day at a rocky beach</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/256/300/300"
+                    alt="snowy mountains">
+                <figcaption>Cloudy day over a snowy mountain</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/538/300/300"
+                    alt="bird in the snow clouds">
+                <figcaption>Bird in a fog over snowy mountains</figcaption>
+            </figure>
+            <figure class="imgBox">
+                <img src="https://via.placeholder.com/300X300" data-src="https://picsum.photos/id/539/300/300"
+                    alt="snowing at the train station">
+                <figcaption>Snow falling infront of a train window</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <div class=fBlock>
+            <div class="contact">
+                <h2>Contact Information</h2>
+                <address>
+                    &#x1f4cc; 1234 Stormy Way <br>
+                    Preston ID 83263
+                </address>
+                <p>&#9993; emailaddress@email.com</p>
+                <p>&#9742; (555)555-0169</p>
+                <div class="social">
+                    <img src="images/facebook.png" alt="white facebook icon">
+                    <img src="images/instagram.png" alt="white instagram icon">
+                    <img src="images/youtube.png" alt="white youtube icon">
+                </div>
+            </div>
+            <div class="map">
+                <img src="images/mapPhoto.jpeg" alt="Map image of south east idaho">
+            </div>
+            <p class="footBar">
+                &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="js/gallery.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+    <script src="js/fontFamilies.js"></script>
 </body>
+
 </html>
