@@ -26,7 +26,6 @@ const observer = new IntersectionObserver(function(entries, observer) {
     if(!entry.isIntersecting) {
       return;
     }else{
-      console.log(entry.target);
       loadImages(entry.target);
       observer.unobserve(entry.target);
     }});
