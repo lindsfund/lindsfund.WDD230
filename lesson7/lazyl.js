@@ -4,8 +4,8 @@ const photo = document.querySelectorAll("img[data-src]");
 
 //settings for the InstersectionObserver
 const options = {
-    threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
+    threshold: 1,
+    rootMargin: "0px 0px 100px 0px"
   };
 
 
@@ -19,6 +19,8 @@ const options = {
 
 
 //is the image intersecting the Viewport (IntersectionObserver)
+
+if ('IntersectionObserver' in window) {
 const observer = new IntersectionObserver(function(entries, observer) {
   entries.forEach(entry => {
     if(!entry.isIntersecting) {
@@ -27,15 +29,17 @@ const observer = new IntersectionObserver(function(entries, observer) {
       console.log(entry.target);
       loadImages(entry.target);
       observer.unobserve(entry.target);
-    }
-    
-  });
+    }});
 }, options);
 
 //loops through each img to check and load 
 photo.forEach((img) => {
         observer.observe(img);
     });
+
+  }else{photo.forEach((img) => {
+    loadImages(img);
+});}
 
 
 

@@ -59,8 +59,7 @@ nav button {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    max-width: 1100px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -69,10 +68,13 @@ nav ul li {
     flex-flow: row nowrap;
     font-size: 0.95rem;
     padding: .8rem 2%;
+    flex: 1 1 100%;
+    text-align: center;
 }
 nav ul li a{
     color: #303030;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 nav ul .active {
@@ -148,7 +150,6 @@ main div {
 .article img {
     width: 100%;
     max-width: 300px;
-    float:left;
     padding:10px;
    
 }

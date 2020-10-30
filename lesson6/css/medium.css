@@ -12,6 +12,7 @@
     }
 
     nav ul {
+        
         align-content: space-evenly;
         justify-content: space-evenly;
     }
@@ -91,6 +92,11 @@
         padding: 0 5px 5px;
         font-size: 0.8rem;
         text-align: center;
+    }
+
+    /*------ Article ------*/
+    .article img {
+        float:left;
     }
 
     /*------ Contacts ------*/
