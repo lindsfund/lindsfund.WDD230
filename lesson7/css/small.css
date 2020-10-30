@@ -90,13 +90,17 @@ nav ul.hide {
 
 main{
     max-width: 1000px;
-    margin: 10px;
+    margin: 25px auto;
+}
+
+main h1{
+    text-align: center;
 }
 
 
 .grid1 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     align-items: center;
     justify-items: center;
