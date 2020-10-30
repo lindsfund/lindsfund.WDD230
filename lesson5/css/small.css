@@ -69,10 +69,14 @@ nav ul li {
     flex-flow: row nowrap;
     font-size: 0.95rem;
     padding: .8rem 2%;
+    flex: 1 1 100%;
+    text-align: center;
+
 }
 nav ul li a{
     color: #303030;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 nav ul .active {
