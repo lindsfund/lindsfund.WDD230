@@ -1,0 +1,47 @@
+@media only screen and (min-width:635px){
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    nav ul {
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    .grid1{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fBlock {
+    flex-flow: row wrap;
+}
+
+.contact {
+    order: 2;
+    margin: 5px;
+}
+
+.map {
+    order: 1;
+    margin: 5px;
+}
+
+
+}

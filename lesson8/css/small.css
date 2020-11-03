@@ -1,0 +1,179 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    
+}
+
+header,
+footer {
+    background-color: #266399;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 5px 0;
+    
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header picture img {
+    max-width: 125px;
+}
+
+section h1 {
+    margin: 0px;
+}
+
+section h3 {
+    font-style: italic;
+    color: #dae6e6;
+    padding: 5px;
+    margin: 0;
+}
+
+nav {
+    background-color: #dae6e6;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #303030;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 0.95rem;
+    padding: .8rem 2%;
+}
+nav ul li a{
+    color: #303030;
+    text-decoration: none;
+}
+
+nav ul .active {
+    background-color: #235B8C;
+    color: #dae6e6;
+}
+
+nav ul a:hover {
+    background-color: rgba(38, 100, 153, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main{
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+main h1{
+    text-align: center;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    
+}
+.imgBox{
+    margin:0;
+}
+
+.fBlock {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+order:1;
+}
+
+.map {
+    order: 2;
+}
+
+.map img{
+    max-width:350px;
+    width:100%;
+}
+
+.footBar {
+    order: 3;
+    width: 100%;
+   
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+h6 {
+    font-weight: 200;
+    font-size: .8em;
+}
+
+footer a {
+    color: #dae6e6;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
