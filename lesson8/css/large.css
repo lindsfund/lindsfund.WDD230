@@ -3,10 +3,8 @@
         padding: .6rem 1rem;
     }
 
-    .grid1{
-        grid-template-columns: repeat(3,1fr);
-        align-content: center;
-        justify-content: center;
+    form label.sbs {
+        padding: .4rem 0;
     }
 
     .imgBox:hover {

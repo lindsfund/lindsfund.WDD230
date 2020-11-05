@@ -93,9 +93,14 @@ main{
     margin: 25px auto;
 }
 
-main h1{
+main p {
     text-align: center;
 }
+main h1 {
+    text-align: center;
+}
+
+
 /*----Form ----*/
 form fieldset{
     margin:2rem 1rem;
@@ -137,12 +142,6 @@ form label.sbs {
     font-size: .9rem;
 }
 
-form label.radio input{
-    display:block;
-    padding:.75rem 0;
-    color:#555;
-}
-
 form input.submitBtn {
     border: 1px solid #303030;
     background-color: #F2D377;
@@ -153,7 +152,21 @@ form input.submitBtn {
     width:96%;
     max-width: 20rem;
   }
-  
+
+  form input:invalid {
+      border: 2px solid red;
+  }
+
+  form label.top input:required {
+      border-left: 5px solid red;
+  }
+
+  form label.top input:required:valid {
+      border-left: 5px solid green;
+  }
+
+
+  /*----footer block ----*/
 
 .fBlock {
     list-style-type: none;
