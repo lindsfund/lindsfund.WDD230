@@ -118,7 +118,7 @@ form legend {
 form label.top, form div.top {
     display:block;
     padding: 1rem;
-    color: #f17547;
+    color: #204f8c;
     font-size: .9rem;
 }
 
@@ -138,7 +138,7 @@ form label.top input, form label.top textarea {
 form label.sbs {
     display:block;
     padding: 1rem;
-    color:#f17547;
+    color:#204f8c;
     font-size: .9rem;
 }
 
