@@ -130,8 +130,8 @@ form label.top input, form label.top textarea {
     border-radius: 5px;
     padding: .75rem;
     color: #303030;
-    width:100%;
-    max-width: 20rem;
+    width:95%;
+    max-width: 15rem;
     background-color: #DAE6E6 ;
 }
 
