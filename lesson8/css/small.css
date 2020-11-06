@@ -153,6 +153,14 @@ form input.submitBtn {
     max-width: 20rem;
   }
 
+form label.top select {
+    padding: .75rem 1rem;
+    border: 1px solid #204f8c;
+    border-radius: 5px;
+    color: #204f8c;
+    background-color: #DAE6E6;
+}
+
   form input:invalid {
       border: 2px solid red;
   }
