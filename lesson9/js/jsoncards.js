@@ -21,11 +21,11 @@ fetch(requestURL)
                 let train = document.createElement('p');
                 // add details and attributes
                 tname.textContent = towns[i].name;
-                tphoto.setAttribute('src', towns[i].photo);
+                tphoto.setAttribute('src',"images/" + towns[i].photo);
                 tmotto.textContent = towns[i].motto;
-                tfounded.textContent = towns[i].yearFounded;
-                tpop.textContent = towns[i].currentPopulation;
-                train.textContent = towns[i].averageRainfall;
+                tfounded.textContent = "Year Founded: " + towns[i].yearFounded;
+                tpop.textContent = "Current Population: " + towns[i].currentPopulation;
+                train.textContent = "Average Precipitation: " + towns[i].averageRainfall;
 
                 // add content to the container
                 card.appendChild(tname);
