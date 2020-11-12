@@ -1,0 +1,46 @@
+@media only screen and (min-width: 635px){
+nav button {
+    display: none;
+}
+
+nav ul.hide {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    font-size: 1rem;
+    padding: .6rem 1rem;
+}
+ nav ul .active {
+     border-bottom: 3px #dae6e6 solid;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+
+ .fBlock {
+     flex-flow: row wrap;
+ }
+
+ .contact {
+     order: 2;
+     margin: 10px;
+ }
+
+ .map {
+     order: 1;
+     margin: 10px;
+ }
+
+ /*------ main content------*/
+
+ 
+
+}

@@ -11,25 +11,29 @@ fetch(requestURL) // get the json file from the defined page
         const prophets = jsonObject['prophets'];
 
         for (let i = 0; i < prophets.length; i++) {
+            
+            //Create HTML elements
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
-
-            h2.textContent = prophets[i].name + " " + prophets[i].lastname;
-
-            card.appendChild(h2);
-
-            document.querySelector("div.cards").appendChild(card);
-
-            let p = document.createElement("p");
-
-            p.textContent = "Date of Birth: " + prophets[i].birthdate  +  "Place of Birth: " + prophets[i].birthplace;
-
-            card.appendChild(p);
-
+            let bdate= document.createElement("p");
+            let bplace = document.createElement("p");
             let image = document.createElement("img");
+            
+            // Add details and attributes
+            h2.textContent = prophets[i].name + " " + prophets[i].lastname;
+            bdate.textContent = "Date of Birth: " + prophets[i].birthdate;
+            bplace.textContent = "Place of Birth: " + prophets[i].birthplace;
 
             image.setAttribute("src", prophets[i].imageurl);
+            image.setAttribute("alt", prophets[i].name + " " + prophets[i].lastname + " - " + prophets[i].order);
 
+            // Add content to the container
+            card.appendChild(h2);
+            card.appendChild(bdate);
+            card.appendChild(bplace);
             card.appendChild(image);
+
+            document.querySelector("div.cards").appendChild(card);
+            
         }
     });

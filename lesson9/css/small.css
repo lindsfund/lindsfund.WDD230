@@ -1,6 +1,6 @@
 html {
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
 }
 
 body {
@@ -12,12 +12,44 @@ body {
     float: none;
 }
 
+/*------ Typography style ------*/
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+h6 {
+    font-weight: 200;
+    font-size: .8em;
+}
+
+/*------ header NAV and footer ------*/
 header,
 footer {
     background-color: #266399;
     color: #f0f0f0;
     text-align: center;
-    padding: 5px 0;   
+    padding: 5px 0;
 }
 
 header {
@@ -30,11 +62,11 @@ header picture img {
     max-width: 125px;
 }
 
-section h1 {
-    margin: 0px;
+.hTitle {
+    margin: 0;
 }
 
-section h3 {
+.hSubtitle {
     font-style: italic;
     color: #dae6e6;
     padding: 5px;
@@ -67,47 +99,23 @@ nav ul li {
     padding: .8rem 2%;
 }
 
-nav ul li a{
+nav ul li a {
     color: #303030;
     text-decoration: none;
 }
 
 nav ul .active {
-    background-color: #235B8C;
+    background-color: #266399;
+}
+
+nav ul .active a {
     color: #dae6e6;
+    font-size: 1.1rem;
+    font-style: italic;
 }
 
-nav ul a:hover {
+nav ul li:hover {
     background-color: rgba(38, 100, 153, 0.4);
-}
-
-nav ul.hide {
-    display: none;
-}
-
-main{
-    max-width: 1000px;
-    margin: 25px auto;
-}
-
-main h1{
-    text-align: center;
-}
-
-
-.gallery1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    align-items: center;
-    justify-items: center;
-    
-}
-.gallery1 figure{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin:0;
 }
 
 .fBlock {
@@ -115,62 +123,40 @@ main h1{
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .contact {
-order:1;
+    order: 1;
 }
 
 .map {
     order: 2;
 }
 
-.map img{
-    max-width:350px;
-    width:100%;
+.map img {
+    max-width: 350px;
+    width: 90%;
+    padding: 5px;
 }
 
 .footBar {
     order: 3;
     width: 100%;
-   
-}
-
-h1 {
-    font-family: 'Lora', serif;
-    font-weight: 700;
-}
-
-h2 {
-    font-family: 'Lora', serif;
-    font-weight: 500;
-
-}
-
-h3 {
-    font-weight: 200;
-    font-size: 1em;
-}
-
-h4 {
-    font-weight: 400;
-}
-
-h5 {
-    font-weight: 200;
-    font-size: 1em;
-}
-
-h6 {
-    font-weight: 200;
-    font-size: .8em;
 }
 
 footer a {
     color: #dae6e6;
 }
+
+/*------ main content------*/
+
+
+
+
+
+
 
 .clearfix:after {
     content: "";
