@@ -110,6 +110,12 @@ main h1{
     margin:0;
 }
 
+.gallery1 figure img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
 .fBlock {
     list-style-type: none;
     display: flex;
