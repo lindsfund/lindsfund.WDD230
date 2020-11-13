@@ -5,6 +5,14 @@
     }
 
     /*------ Main Content ------*/
+.cards {
+    grid-template-columns: repeat(3, 1fr);
+}
 
-    
+.cards section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% repeat (5, 1fr);
+}
+
+
 }
