@@ -218,6 +218,7 @@ div.eventList {
 
 .eventLi ul {
     background-color: rgba(255, 255, 255, 0.5);
+    max-width: 600px;
     margin: 25px auto;
 }
 
