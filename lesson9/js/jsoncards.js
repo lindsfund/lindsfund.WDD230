@@ -22,6 +22,7 @@ fetch(requestURL)
                 // add details and attributes
                 tname.textContent = towns[i].name;
                 tphoto.setAttribute('src',"images/" + towns[i].photo);
+                tphoto.setAttribute("alt",towns[i].name);
                 tmotto.textContent = towns[i].motto;
                 tfounded.textContent = "Year Founded: " + towns[i].yearFounded;
                 tpop.textContent = "Current Population: " + towns[i].currentPopulation;
