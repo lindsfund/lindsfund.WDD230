@@ -5,14 +5,33 @@
     }
 
     /*------ Main Content ------*/
-.cards {
+div.cards {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.cards section {
-    grid-template-columns: 1fr;
+div.cards section {
+    grid-template-columns: 100%;
     grid-template-rows: 50% repeat (5, 1fr);
 }
 
+div.cards section img,
+div.cards section:nth-child(even) img
+ {
+    border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+}
+
+div.cards section:nth-child(even) img {
+    width: 100%;
+    grid-column: 1;
+
+}
+
+div.cards section:nth-child(even) h2 {
+    grid-row: 6;
+
+}
 
 }
