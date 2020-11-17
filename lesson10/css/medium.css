@@ -1,0 +1,118 @@
+@media only screen and (min-width:635px) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    nav ul {
+        
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+    }
+
+    /* ------Hero image------ */
+
+    .herodiv {
+        margin: 10px auto;
+        position: relative;
+    }
+
+    .stats {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: rgba(242, 211, 119, 0.9);
+        box-shadow: 0 0 30px #303030;
+    }
+
+    .stats h2 {
+        margin: 5px auto;
+    }
+
+    .stats p {
+        margin: 3px auto;
+    }
+
+    /*------ 5 day forcast ------*/
+    .forecast {
+        display: block;
+        border: 1px solid #303030;
+        background: #DAE6E6;
+        font-style: normal;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .forColumn {
+        display: table;
+        width: 95%;
+        column-count: 7;
+        column-gap: 0;
+
+    }
+
+    .column {
+        display: table-cell;
+        margin: 0 auto;
+        border: 1px solid #303030;
+    }
+
+    .forColumn img {
+        width: 75%;
+
+    }
+
+    .colHead {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .colTemp {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    /*------ Article ------*/
+    .article img {
+        float:left;
+    }
+
+    /*------ Contacts ------*/
+
+    .fBlock {
+        flex-flow: row wrap;
+    }
+
+    .contact {
+        order: 2;
+        margin: 5px;
+    }
+
+    .map {
+        order: 1;
+        margin: 5px;
+    }
+
+}
