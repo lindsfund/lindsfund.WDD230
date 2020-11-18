@@ -26,12 +26,17 @@ fetch(apiURL)
         for (let i = 0; i < list1.length; i++) {
             //IF to filter by 18:00
             if (list1[i].dt_txt.includes("18:00:00")) {
-
+                
                 list2[i] = list1[i];
-                console.table(list2[i]);//comment out before submit
+                console.log(list2[i]);//comment out before submit
+
+                for (x =0; x < dITemp.length; i++) {
+            
+                }
+                
             }
              // store dt_tx in dIday that coordinated with it's new array location (ie..first loop answer need to go in d1Day, second in d2Day...)
-            // document.getElementById("d1Day").innerHTML = this.dt_txt;
+            
             // store temp in dITemp that coordinates with it's new array location
             
             
