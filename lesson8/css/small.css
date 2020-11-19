@@ -2,6 +2,9 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -102,6 +105,10 @@ main h1 {
 
 
 /*----Form ----*/
+
+.mainHead{
+    color:#204f8c;
+}
 form fieldset{
     margin:2rem 1rem;
     border: 1px solid #517ea6;
@@ -131,7 +138,6 @@ form label.top input, form label.top textarea {
     padding: .75rem;
     color: #303030;
     width:95%;
-    max-width: 15rem;
     background-color: #DAE6E6 ;
 }
 

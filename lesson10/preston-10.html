@@ -50,7 +50,7 @@
             <section class="stats">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="current"></span></p>
-                <p>Current Temp: <span id="temp"></span>F</p>
+                <p>Current Temp: <span id="temp"></span>&#176; F</p>
                 <p>Wind Speed: <span id="windSpeed"></span>mph</p>
                 <p>Wind Chill: <span id="windChill"></span></p>
                 <p>Humidity: <span id="humidity"></span>%</p>
@@ -60,29 +60,29 @@
             <h2> Five Day Forecast </h2>
             <div class="forColumn">
                 <div class="column">
-                    <span class="colHead" id="d1Day"></span>
+                    <span class="colHead" id="dayofweek1"></span>
                     <img src="images/hot.png" alt="heat">
-                    <span class="colTemp" id="d1Temp">High</span>
+                    <span class="colTemp" id="forecast1"></span>
                 </div>
                 <div class="column">
-                    <span class="colHead" id="d2Day"></span>
+                    <span class="colHead" id="dayofweek2"></span>
                     <img src="images/rain.png" alt="rain">
-                    <span class="colTemp" id="d1Temp"></span>
+                    <span class="colTemp" id="forecast2"></span>
                 </div>
                 <div class="column">
-                    <span class="colHead" id="d3Day"></span>
+                    <span class="colHead" id="dayofweek3"></span>
                     <img src="images/snow.png" alt="snow">
-                    <span class="colTemp" id="d3Temp"></span>
+                    <span class="colTemp" id="forecast3"></span>
                 </div>
                 <div class="column">
-                    <span class="colHead" id="d4Day"></span>
+                    <span class="colHead" id="dayofweek4"></span>
                     <img src="images/storm.png" alt="thunder storm">
-                    <span class="colTemp" id="d4Temp"></span>
+                    <span class="colTemp" id="forecast4"></span>
                 </div>
                 <div class="column">
-                    <span class="colHead" id="d5Day"></span>
+                    <span class="colHead" id="dayofweek5"></span>
                     <img src="images/sun.png" alt="sunny">
-                    <span class="colTemp" id="d5Temp"></span>
+                    <span class="colTemp" id="forecast5"></span>
                 </div>
             </div>
         </div>
@@ -124,6 +124,7 @@
     <script src="js/cond_banner.js"></script>
     <script src="js/scripts.js"></script>
     <script src= "js/preston_weather.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/font_families.js"></script>
     <script src="js/wind_chill.js"></script>

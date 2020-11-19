@@ -13,7 +13,7 @@ fetch(apiURL)
         // get location to place and place cerrent temp (main.temp) there
         document.getElementById('current-temp').textContent = fahrenheit;
 
-        const imagesrc = "https://openweathermap.org/img/w/" + jsObject.list[0].weather[0].icon + ".png"
+        const imagesrc = "https://openweathermap.org/img/w/" + jsObject.list[0].weather[0].icon + ".png";
         const desc = jsObject.list[0].weather[0].description; //note how we referance weather array
 
         document.getElementById("imagesrc").innerHTML = imagesrc; // informational specification only
