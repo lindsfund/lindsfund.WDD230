@@ -11,7 +11,11 @@ div.cards {
 
 div.cards section {
     grid-template-columns: 100%;
-    grid-template-rows: 50% repeat(5, 1fr);
+    grid-template-rows: auto repeat(5, 1fr);
+}
+
+.cards img {
+    grid-row: span 1;
 }
 
 div.cards section img,
@@ -30,7 +34,7 @@ div.cards section:nth-child(even) img {
 }
 
 div.cards section:nth-child(even) h2 {
-    grid-row: 6;
+    grid-row: 2;
 
 }
 

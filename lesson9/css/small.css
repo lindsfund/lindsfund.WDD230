@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -97,6 +101,7 @@ nav ul li {
     flex-flow: row nowrap;
     font-size: 0.95rem;
     padding: .8rem 2%;
+    justify-content: center;
 }
 
 nav ul li a {
@@ -116,6 +121,10 @@ nav ul .active a {
 
 nav ul li:hover {
     background-color: rgba(38, 100, 153, 0.4);
+}
+
+nav ul.hide {
+    display: none;
 }
 
 .fBlock {
@@ -156,7 +165,10 @@ footer a {
 }
 
 /*------ main content------*/
-
+main {
+    max-width:1000px;
+    margin:0 auto;
+}
 /*--- Cards ---*/
 .cards {
     display: grid;
@@ -203,9 +215,10 @@ footer a {
 
 /*--- Background image ---*/
 div.eventList {
-    background-image: url("../images/heroimage.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url("../images/cloudfooterimg.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /*--- Event List ---*/

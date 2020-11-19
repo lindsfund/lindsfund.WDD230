@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -119,6 +123,10 @@ nav ul li:hover {
     background-color: rgba(38, 100, 153, 0.4);
 }
 
+nav ul.hide {
+    display: none;
+}
+
 .fBlock {
     list-style-type: none;
     display: flex;
@@ -152,8 +160,12 @@ footer a {
 }
 
 /*------ main content------*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
-
+/*------ CLEAR FIX ------*/
 .clearfix:after {
     content: "";
     display: table;
