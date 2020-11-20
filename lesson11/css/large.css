@@ -1,0 +1,40 @@
+@media only screen and (min-width: 935px) {
+    nav ul li a {
+        font-size: 1.2rem;
+        padding: .6rem 1rem;
+    }
+
+    /*------ Main Content ------*/
+div.cards {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.cards section {
+    grid-template-columns: 100%;
+    grid-template-rows: auto repeat(5, 1fr);
+}
+
+.cards img {
+    grid-row: span 1;
+}
+
+div.cards section img,
+div.cards section:nth-child(even) img
+ {
+    border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+}
+
+div.cards section:nth-child(even) img {
+    width: 100%;
+    grid-column: 1;
+
+}
+
+div.cards section:nth-child(even) h2 {
+    grid-row: 2;
+
+}
+}
