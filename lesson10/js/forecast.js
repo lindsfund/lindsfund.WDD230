@@ -17,11 +17,11 @@ fetch (apiURL)
 
             let kelvin = forecast[day].main.temp;
             let celsius = kelvin - 273;
-            let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+            let fahrenheit = Math.floor(celsius * (9 / 5) + 32) + `&#8457`;
             
             const imagesrc = "https://openweathermap.org/img/w/" + forecast[day].weather[0].icon + ".png";
 
-            document.getElementById(`forecast${day+1}`).textContent = fahrenheit;
+            document.getElementById(`forecast${day+1}`).innerHTML = fahrenheit;
             document.getElementById(`dayofweek${day+1}`).textContent = wDay;
             document.getElementById(`imgIcon${day+1}`).setAttribute("src", imagesrc);
             document.getElementById(`imgIcon${day+1}`).setAttribute("alt", forecast[day].weather[0].main);

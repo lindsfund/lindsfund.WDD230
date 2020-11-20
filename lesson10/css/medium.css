@@ -53,8 +53,8 @@
     /*------ 5 day forcast ------*/
     .forecast {
         display: block;
-        border: 1px solid #303030;
-        background: #DAE6E6;
+        
+        
         font-style: normal;
         text-align: center;
         margin: 0;
@@ -65,7 +65,8 @@
     .forColumn {
         display: table;
         width: 95%;
-        column-count: 7;
+        max-width: 750px;
+        column-count: 5;
         column-gap: 0;
 
     }
@@ -73,7 +74,14 @@
     .column {
         display: table-cell;
         margin: 0 auto;
-        border: 1px solid #303030;
+        padding: 10px;
+        border: 2px solid #303030;
+        border-right: none;
+        background-color: #DAE6E6;
+    }
+
+    .forColumn :nth-child(5) {
+        border-right: 2px solid #303030;
     }
 
     .forColumn img {
@@ -83,13 +91,21 @@
 
     .colHead {
         display: block;
-        padding: 5px;
         text-align: center;
+        font-size: 1.2rem;
+    
     }
+
+#imgIcon1,
+#imgIcon2,
+#imgIcon3,
+#imgIcon4,
+#imgIcon5 {
+    max-width: 250px;
+}
 
     .colTemp {
         display: block;
-        padding: 0 5px 5px;
         font-size: 0.8rem;
         text-align: center;
     }
@@ -97,6 +113,7 @@
     /*------ Article ------*/
     .article img {
         float:left;
+        max-width: 300px;
     }
 
     /*------ Contacts ------*/

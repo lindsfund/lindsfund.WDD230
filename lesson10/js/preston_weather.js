@@ -9,10 +9,10 @@ fetch(apiURL)
 
         let kelvin = jsObject.list[0].main.temp;
         let celsius = kelvin - 273;
-        let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+        let fahrenheit = Math.floor(celsius * (9 / 5) + 32) + `&#8457`;
 
-        document.getElementById("current").textContent = jsObject.list[0].weather[0].description;
-        document.getElementById("temp").textContent = fahrenheit;
+        document.getElementById("current").textContent = jsObject.list[0].weather[0].main;
+        document.getElementById("temp").innerHTML = fahrenheit;
         document.getElementById("windSpeed").textContent = jsObject.list[0].wind.speed;
         document.getElementById("humidity").textContent = jsObject.list[0].main.humidity;
         
