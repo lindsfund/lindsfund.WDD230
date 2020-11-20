@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for weather site">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   
+    <title>Home Page</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/logo.png" alt="Sunshine or Snowflakes Logo">
+        </picture>
+        <div>
+            <h1 class = "hTitle">Sunshine or Snowflakes</h1>
+            <h3 class = "hSubtitle">Outside no matter what</h3>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu </button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        </ul>
+    </nav>
+    <main>
+
+    </main>
+
+    <footer>
+        <div class=fBlock>
+            <div class="contact">
+                <h2>Contact Information</h2>
+                <address>
+                    &#x1f4cc; 1234 Stormy Way <br>
+                    Preston ID 83263
+                </address>
+                <p>&#9993; emailaddress@email.com</p>
+                <p>&#9742; (555)555-0169</p>
+                <div class="social">
+                    <img src="images/facebook.png" alt="white facebook icon">
+                    <img src="images/instagram.png" alt="white instagram icon">
+                    <img src="images/youtube.png" alt="white youtube icon">
+                </div>
+            </div>
+            <div class="map">
+                <img src="images/map_photo.jpeg" alt="Map image of south east idaho">
+            </div>
+            <p class="footBar">
+                &copy;Sunshine or Snowflakes | Attributions | Lindsey Fund | <span id="CurrentDate"></span>
+            </p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font_families.js"></script>
+</body>
+
+</html>
