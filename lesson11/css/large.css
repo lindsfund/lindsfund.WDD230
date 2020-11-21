@@ -1,8 +1,4 @@
 @media only screen and (min-width: 935px) {
-    nav ul li a {
-        font-size: 1.2rem;
-        padding: .6rem 1rem;
-    }
 
     /*------ Main Content ------*/
 div.cards {
@@ -36,5 +32,10 @@ div.cards section:nth-child(even) img {
 div.cards section:nth-child(even) h2 {
     grid-row: 2;
 
+}
+
+/*--- Storm Center ---*/
+form label.sbs {
+    padding: .4rem 0;
 }
 }

@@ -197,6 +197,89 @@ main {
     margin: 0 auto;
 }
 
+main h1 {
+    text-align: center;
+}
+/*---THIS IS THE STORM CENTER PAGE---*/
+/*----Form ----*/
+
+.mainHead{
+    color:#204f8c;
+}
+form {
+    margin-bottom: 25px;
+}
+form fieldset{
+    margin:2rem 1rem;
+    border: 1px solid #517ea6;
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #204f8c;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div.top {
+    display:block;
+    padding: 1rem;
+    color: #204f8c;
+    font-size: .9rem;
+}
+
+form label.top input, form label.top textarea {
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: 1px solid #517ea6;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #303030;
+    width:95%;
+    background-color: #DAE6E6 ;
+}
+
+form label.sbs {
+    display:block;
+    padding: 1rem;
+    color:#204f8c;
+    font-size: .9rem;
+}
+
+form input.submitBtn {
+    border: 1px solid #303030;
+    background-color: #F2D377;
+    color: #303030;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width:96%;
+    max-width: 20rem;
+  }
+
+form label.top select {
+    padding: .75rem 1rem;
+    border: 1px solid #204f8c;
+    border-radius: 5px;
+    color: #204f8c;
+    background-color: #DAE6E6;
+}
+
+  form input:invalid {
+      border: 2px solid red;
+  }
+
+  form label.top input:required {
+      border-left: 5px solid red;
+  }
+
+  form label.top input:required:valid {
+      border-left: 5px solid green;
+  }
+
+
 /* THIS IS THE PRESTON TOWN HOME PAGE---*/
 /*--------5 day Forcast--------*/
 .forecast {

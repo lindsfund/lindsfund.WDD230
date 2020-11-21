@@ -19,13 +19,13 @@ nav ul {
 
 nav ul li {
     font-size: 1rem;
-    padding: .6rem 1rem;
+    padding: .4rem 1rem;
     
 }
 
 nav ul li a {
     border: none;
-    padding: .6rem 1rem;
+    padding: .4rem 1rem;
     
 }
 
@@ -50,6 +50,19 @@ nav ul li a {
  }
 
  /*------ main content------*/
+
+ /*---THIS IS THE STORM CENTER PAGE---*/
+/*----Form ----*/
+form fieldset {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input.submitBtn{
+    display:block;
+    margin: 0 auto;
+}
 
  /*---THE IS THE MAIN HOME PAGE---*/
 .cards section {
