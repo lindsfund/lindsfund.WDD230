@@ -91,8 +91,7 @@ nav button {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    max-width: 1100px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -101,7 +100,6 @@ nav ul li {
     flex-flow: row nowrap;
     font-size: 0.95rem;
     padding: .8rem 2%;
-    justify-content: center;
     flex: 1 1 100%;
     text-align: center;
 }
@@ -109,6 +107,7 @@ nav ul li {
 nav ul li a {
     color: #303030;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 nav ul .active {
@@ -186,12 +185,6 @@ footer a {
 }
 
 /*------ main content------*/
-
-.cityName {
-    text-align: center;
-
-}
-
 main {
     max-width: 1000px;
     margin: 0 auto;
@@ -200,9 +193,31 @@ main {
 main h1 {
     text-align: center;
 }
+
+/*---THIS IS THE GALLERY PAGE ---*/
+.gallery1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    
+}
+.gallery1 figure{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin:0;
+}
+
+.gallery1 figure img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
 /*---THIS IS THE STORM CENTER PAGE---*/
 /*----Form ----*/
-
 .mainHead{
     color:#204f8c;
 }

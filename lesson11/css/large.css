@@ -1,6 +1,19 @@
 @media only screen and (min-width: 935px) {
 
     /*------ Main Content ------*/
+
+    /*---THIS IS THE GALLERY PAGE ---*/
+    .gallery1{
+        grid-template-columns: repeat(3,1fr);
+        align-content: center;
+        justify-content: center;
+    }
+
+    .imgBox:hover {
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    /*--- THIS IS THE HOME PAGE ---*/
 div.cards {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -34,8 +47,4 @@ div.cards section:nth-child(even) h2 {
 
 }
 
-/*--- Storm Center ---*/
-form label.sbs {
-    padding: .4rem 0;
-}
 }

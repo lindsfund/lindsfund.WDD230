@@ -8,19 +8,14 @@ nav ul.hide {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-}
-
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
     align-content: space-evenly;
-    justify-content: space-evenly;
+    padding:0 5px;
 }
 
 nav ul li {
     font-size: 1rem;
-    padding: .4rem 1rem;
-    
+    padding: 0;
+    justify-content: space-evenly;
 }
 
 nav ul li a {
@@ -50,6 +45,11 @@ nav ul li a {
  }
 
  /*------ main content------*/
+
+ /*---THIS IS THE GALLERY PAGE ---*/
+ .gallery1{
+    grid-template-columns: repeat(2, 1fr);
+}
 
  /*---THIS IS THE STORM CENTER PAGE---*/
 /*----Form ----*/
