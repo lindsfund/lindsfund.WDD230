@@ -1,3 +1,12 @@
+var city = document.querySelector("h1.mainHead").textContent;
+// const apiTest = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=5c05f660a88c4f2c5c6b9a3e63c19638";
+if (city == "Preston, Idaho"){
+ var apiURL = apiTest.replace("5604473","5604473");
+}else if(city == "Soda Springs, Idaho"){
+    var apiURL = apiTest.replace("5604473","5607916");
+}else if(city == "Fish Haven, Idaho") {
+    var apiURL = apiTest.replace("5604473","5585010");
+}
 
 
 fetch (apiURL)
