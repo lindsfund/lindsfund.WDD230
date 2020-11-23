@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home Page for weather site">
+    <meta name="description" content="Fish Haven home page">
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="../css/normalize.css">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
    
-    <title>Home Page</title>
+    <title>Fish Haven</title>
 </head>
 
 <body>
@@ -38,7 +38,57 @@
         </ul>
     </nav>
     <main>
-
+        <h1 class="mainHead">Fish Haven, Idaho</h1>
+        <div class="herodiv">
+            <img src="images/image1100.jpg" alt="Hero Image of landscape" sizes="60vw"
+                srcset="images/image500.jpg 500w, images/image800.jpg 800w, images/image1100.jpg 1100w">
+            <section class="stats">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current"></span></p>
+                <p>Current Temp: <span id="temp"></span></p>
+                <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <h2> Five Day Forecast </h2>
+            <div class="forColumn">
+                <div class="column">
+                    <span class="colHead" id="dayofweek1"></span>
+                    <img id="imgIcon1" src="#" alt="#">
+                    <span class="colTemp" id="forecast1"></span>
+                </div>
+                <div class="column">
+                    <span class="colHead" id="dayofweek2"></span>
+                    <img id="imgIcon2" src="#" alt="#">
+                    <span class="colTemp" id="forecast2"></span>
+                </div>
+                <div class="column">
+                    <span class="colHead" id="dayofweek3"></span>
+                    <img id="imgIcon3" src="#" alt="#">
+                    <span class="colTemp" id="forecast3"></span>
+                </div>
+                <div class="column">
+                    <span class="colHead" id="dayofweek4"></span>
+                    <img id="imgIcon4" src="#" alt="#">
+                    <span class="colTemp" id="forecast4"></span>
+                </div>
+                <div class="column">
+                    <span class="colHead" id="dayofweek5"></span>
+                    <img id="imgIcon5" src="#" alt="#">
+                    <span class="colTemp" id="forecast5"></span>
+                </div>
+            </div>
+        </div>
+        <div class="article clearfix">
+            <h2>Article title</h2>
+            <img src="images/mountainview.jpg" alt="Mountain View">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente voluptas doloremque ad saepe laborum facilis quisquam
+                quae. Illo vel ab neque possimus perferendis quisquam, praesentium
+                itaque quo, commodi quaerat libero?</p>
+        </div>
     </main>
 
     <footer>
