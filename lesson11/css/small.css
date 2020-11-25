@@ -518,6 +518,12 @@ div.eventList {
     max-width: 300px;
 }
 
+/*--- THANK YOU PAGE ---*/
+
+.thankYou {
+    text-align: center;
+}
+
 /*------ CLEAR FIX ------*/
 .clearfix:after {
     content: "";
