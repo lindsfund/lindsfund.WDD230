@@ -220,12 +220,18 @@ main h2 {
     max-width: 300px;
     height: auto;
     margin:0;
+    border: 1px solid #e0e0e0;
 }
 
 .gallery1 figure img {
     width: 100%;
     max-width: 300px;
     height: auto;
+}
+
+.gallery1 figcaption {
+    text-align: center;
+    padding:5px;
 }
 /*---THIS IS THE STORM CENTER PAGE---*/
 /*----Form ----*/
