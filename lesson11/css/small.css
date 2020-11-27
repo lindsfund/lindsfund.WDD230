@@ -422,6 +422,7 @@ div.eventList {
     max-width: 500px;
     margin: 0 auto;
     background-color: #235b8c;
+    border: 2px solid black;
 }
 
 .eventLi h2 {
