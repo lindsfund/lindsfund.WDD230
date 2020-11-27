@@ -163,8 +163,9 @@ footer a {
 
 /*------ hero image ------*/
 
-div.herodiv img{
+div.heroDiv img {
     width: 100%;
+    margin:0 auto;
 }
 
 .stats {
