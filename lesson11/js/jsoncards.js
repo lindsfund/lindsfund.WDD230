@@ -37,6 +37,17 @@ fetch(requestURL)
                 card.appendChild(train);
 
                 document.querySelector("div.cards").appendChild(card);
+                console.log(towns);
+                
+                let eventMainList = document.createElement('ul');
+                let event1 = document.createElement("li");
+        
+
+                event1.textContent = towns[i].name + " - " + towns[i].events[0];
+                
+                eventMainList.appendChild(event1);
+
+                document.querySelector("h2.mainEventList").appendChild(eventMainList);
             }
         }
     });

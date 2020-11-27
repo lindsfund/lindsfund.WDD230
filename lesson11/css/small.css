@@ -163,7 +163,7 @@ footer a {
 
 /*------ hero image ------*/
 
-.herodiv img {
+div.herodiv img{
     width: 100%;
 }
 
@@ -409,6 +409,8 @@ form label.top select {
 
 /*--- Background image ---*/
 div.eventList {
+    padding-top:5px;
+    padding-bottom:10px;
     background-image: url("../images/cloudfooterimg.jpg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -416,17 +418,29 @@ div.eventList {
 }
 
 /*--- Event List ---*/
+.eventLi {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #235b8c;
+}
+
 .eventLi h2 {
     text-align: center;
     padding: 5px;
-    background-color: #235b8c;
     color: #f0f0f0;
 }
 
 .eventLi ul {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f0f0f0;
     max-width: 600px;
-    margin: 25px auto;
+    margin:0 auto;
+}
+
+.eventLi li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #235b8c;
+    padding:5px;
 }
 
 /*--- Calender ---*/
@@ -444,6 +458,7 @@ div.eventList {
     margin: 0 auto;
     width: 100%;
     background: #517ea6;
+    color: #f0f0f0;
     text-align: center;
 }
 
