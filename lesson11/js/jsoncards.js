@@ -37,7 +37,7 @@ fetch(requestURL)
                 card.appendChild(train);
 
                 document.querySelector("div.cards").appendChild(card);
-                console.log(towns);
+                
                 
                 let eventMainList = document.createElement('ul');
                 let event1 = document.createElement("li");
