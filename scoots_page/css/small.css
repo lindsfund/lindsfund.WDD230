@@ -62,6 +62,20 @@ nav ul li a {
     white-space: nowrap;
 }
 
+nav ul .active {
+    background-color: #266399;
+}
+
+nav ul .active a {
+    color: #dae6e6;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+nav ul li:hover {
+    background-color: rgba(38, 100, 153, 0.4);
+}
+
 nav ul.hide {
     display: none;
 }
@@ -104,7 +118,7 @@ p {
 /*------ HEADER  ------*/
 .wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr .25fr;
+    grid-template-columns: 2fr 1fr .5fr;
     grid-column-gap: 5px;
     max-width: 1100px;
     margin: 0 auto;
@@ -125,26 +139,7 @@ p {
 }
 
 .quickCont {
-    display: grid;
-    grid-template-rows: 1fr .5fr .5fr .5fr;
-    padding: 10px 25px;
-    justify-items: end;
-    align-items: end;
-}
-
-.quickCont h2 {
-    grid-row: 2;
-    margin: 0;
-}
-
-.quickCont h3:nth-child(2) {
-    grid-row: 3;
-    margin: 0;
-}
-
-.quickCont h3:nth-child(3) {
-    grid-row: 4;
-    margin: 0;
+    display: none;
 }
 
 .logo {
@@ -161,14 +156,14 @@ p {
 /*------ FOOTER ------*/
 .contact {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: .75fr 1fr 1fr .5fr;
     grid-gap: 1rem;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .contact div {
-    border: 1px solid #000e26;
+    border: 1px solid #B2CB00;
     padding: 10px;
 }
 
@@ -178,6 +173,10 @@ p {
 
 .contact address {
     margin: 10px auto;
+}
+
+.googleMap {
+    display: none;
 }
 
 .locMain {
