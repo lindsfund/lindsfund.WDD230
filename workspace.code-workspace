@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../VS code Folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lindsfund.github.io"
+	}
+}
