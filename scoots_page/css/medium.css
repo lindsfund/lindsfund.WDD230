@@ -61,7 +61,7 @@
 
     /*------ FOOTER ------*/
     .contact {
-        grid-template-rows: .75fr 1fr .5fr;
+        grid-template-rows: .5fr 1fr .5fr;
     }
 
 

@@ -19,9 +19,6 @@ body {
 
 header,
 footer {
-    background-color: #ffffff;
-    color: #000e26;
-    text-align: center;
     padding: 15px;
     border-bottom: 5px solid #036cad;
 }
@@ -156,13 +153,14 @@ nav ul.hide {
 /*------ FOOTER ------*/
 .contact {
     display: grid;
-    grid-template-rows: .75fr 1fr 1fr .5fr;
+    grid-template-rows: .5fr 1fr 1fr .5fr;
     grid-gap: 1rem;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 .contact div {
+    text-align: center;
     border: 1px solid #B2CB00;
     padding: 10px;
 }
@@ -180,12 +178,10 @@ nav ul.hide {
 }
 
 .locMain {
-    display: grid;
-    grid-gap: 5px;
-    justify-items: center;
+    text-align: center;
 }
 
-.locMain h3:nth-child(1) {
+/* .locMain h3:nth-child(1) {
     display: grid;
     align-items: end;
 }
@@ -193,8 +189,39 @@ nav ul.hide {
 .locMain h3:nth-child(2) {
     display: grid;
     align-items: start;
-}
+} */
+
 /*------ HOME PAGE ----*/
+/*- current weather -*/
+.currWeather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .25fr 1fr .5fr;
+    grid-gap: 10px;
+}
+
+.currWeather h3 {
+    grid-row: 1;
+    grid-column: span 2;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff6f4;
+}
+.currWeather p {
+    display:grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #B2CB00;
+}
+
+.currWeather p:nth-child(2) {
+    grid-row: 2;
+    grid-column:span 2;
+}
+
 /*- call to action -*/
 .cta {
     position: relative;
@@ -204,6 +231,7 @@ nav ul.hide {
 
 .cta img {
     width: 100%;
+    border-top: 5px solid #036cad;
 }
 .ctaText{
     position: absolute;
