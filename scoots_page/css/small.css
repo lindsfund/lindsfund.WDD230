@@ -219,7 +219,7 @@ nav ul.hide {
     border: 2px solid #B2CB00;
 }
 
-.currWeather div p {
+.currWeather div h4 {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0;
