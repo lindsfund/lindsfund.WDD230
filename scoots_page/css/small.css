@@ -14,15 +14,52 @@ body {
     margin: 0 auto;
     padding: 0;
     float: none;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 header,
 footer {
-    background-color: #FFFfff;
+    background-color: #ffffff;
     color: #000e26;
     text-align: center;
     padding: 15px;
+    border-bottom: 5px solid #036cad;
+}
+
+/*------ TEXT FORMATTING ------*/
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #000e26;
+}
+
+h2 {
+    color: #000e26;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+
+}
+
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 /*------ NAVIGATION ------*/
 nav {
@@ -62,6 +99,7 @@ nav ul li a {
 
 nav ul .active {
     background-color: white;
+    border-bottom: 5px solid #02dfdb;
 }
 
 nav ul .active a {
@@ -70,46 +108,11 @@ nav ul .active a {
 }
 
 nav ul li:hover {
-    background-color: #05a394;
+    background-color: #0597F2;
 }
 
 nav ul.hide {
     display: none;
-}
-/*------ TEXT FORMATTING ------*/
-h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
-    color: #000e26;
-}
-
-h2 {
-    color: #000e26;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 500;
-
-}
-
-h3,
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}
-
-h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: .8em;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
 }
 
 /*------ HEADER  ------*/
@@ -191,8 +194,30 @@ p {
     display: grid;
     align-items: start;
 }
-/*------ Main ----*/
+/*------ HOME PAGE ----*/
+/*- call to action -*/
+.cta {
+    position: relative;
+    margin:10px auto;
+    max-width: 1000px;
+}
 
+.cta img {
+    width: 100%;
+}
+.ctaText{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    box-sizing: content-box;
+    background:rgba(2, 223, 219, .5);
+    border: 2px solid #036cad;
+    box-shadow: 0 0 30px #303030;
+    padding: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /*------ CLEAR FIX ------*/
 .clearfix:after {

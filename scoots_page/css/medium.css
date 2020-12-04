@@ -21,6 +21,7 @@
         justify-content: space-evenly;
         align-content: space-evenly;
         padding:0 5px;
+        border-top: 5px solid #02dfdb;
     }
 
     nav ul li {
@@ -37,7 +38,7 @@
 
     nav ul .active {
         background-color: white;
-        border-top: 5px solid #02dfdb;
+        border-bottom: none;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
@@ -48,7 +49,7 @@
     }
 
     nav ul li:hover {
-        background-color: #05a394;
+        background-color: #0597F2;
         border-top: 5px solid #02dfdb;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -78,6 +79,13 @@
 
     .footBar {
         grid-column: span 2;
+    }
+    /*------ HOME PAGE ----*/
+    /*- call to action -*/
+    
+    .cta h3 {
+        top: 25px;
+        right: 50px;
     }
 
 

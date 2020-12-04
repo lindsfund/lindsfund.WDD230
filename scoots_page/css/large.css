@@ -47,4 +47,10 @@
         grid-column: 2;
         grid-row: 3;
     }
+    /*------ HOME PAGE ----*/
+    /*- call to action -*/
+    .cta h3 {
+        top: 50px;
+        right: 100px;
+    }
 }
