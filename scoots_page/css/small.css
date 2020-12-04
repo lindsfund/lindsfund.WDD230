@@ -208,6 +208,7 @@ nav ul.hide {
     margin: 0;
     padding: 5px;
     padding-top: 10px;
+    font-size: 2rem;
 }
 .currWeather div {
     display:grid;
