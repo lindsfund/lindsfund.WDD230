@@ -36,9 +36,22 @@
     }
 
     nav ul .active {
-        border-bottom: 3px #dae6e6 solid;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        background-color: white;
+        border-top: 5px solid #02dfdb;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    nav ul .active a {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    nav ul li:hover {
+        background-color: #05a394;
+        border-top: 5px solid #02dfdb;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
         
 

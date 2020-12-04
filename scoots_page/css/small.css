@@ -42,38 +42,35 @@ nav ul {
     list-style-type: none;
     max-width: 950px;
     margin: 0 auto;
+    padding:0;
 }
 
 nav ul li {
     display: flex;
     flex-flow: row nowrap;
-    font-size: 0.95rem;
+    justify-content: center;
     padding: .8rem 2%;
     flex: 1 1 100%;
-    text-align: center;
 }
 
 nav ul li a {
     color: #000e26;
-    text-align: center;
     text-decoration: none;
-    font-size: 0.95rem;
     padding: 0.75rem;
     white-space: nowrap;
 }
 
 nav ul .active {
-    background-color: #266399;
+    background-color: white;
 }
 
 nav ul .active a {
-    color: #dae6e6;
+    color: #000e26;
     font-size: 1.1rem;
-    font-style: italic;
 }
 
 nav ul li:hover {
-    background-color: rgba(38, 100, 153, 0.4);
+    background-color: #05a394;
 }
 
 nav ul.hide {
