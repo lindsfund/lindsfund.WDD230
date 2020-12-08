@@ -11,8 +11,7 @@ fetch(apiURL)
         const imgsrc = "https://openweathermap.org/img/wn/" + jsonObject.current.weather[0].icon + "@2x.png";
 
         document.getElementById("currTemp").innerHTML = Math.round(t) + `&#8457`;
-        document.getElementById("condition").setAttribute("src", imgsrc);
-        document.getElementById("condition").setAttribute("alt", jsonObject.current.weather[0].main);
+        document.getElementById("condition").innerHTML = jsonObject.current.weather[0].main;
         document.getElementById("humidity").innerHTML = jsonObject.current.humidity + "%";
 
         // 3 day forecast

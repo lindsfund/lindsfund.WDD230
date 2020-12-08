@@ -200,9 +200,10 @@ nav ul.hide {
 .currWeather {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .25fr 1fr .5fr;
+    grid-template-rows: .25fr 1fr;
+    justify-content:center;
+    text-align: center;
     grid-gap: 10px;
-    padding: 10px;
 }
 
 .currWeather h2 {
@@ -210,70 +211,64 @@ nav ul.hide {
     grid-column: span 2;
     text-align: center;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     padding-top: 10px;
     font-size: 2rem;
-}
-.currWeather div {
-    display:grid;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 5px;
-    border: 2px solid #B2CB00;
+    border-bottom: 5px solid #036cad;
 }
 
-.currWeather div h4 {
+.currWeather h4 {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0;
 }
-/*- forcast -*/
+
+.divTHC,
 #forecast {
     display: grid;
-    grid-gap: 5px;
-    margin:0;
-    
+    grid-template-rows: .25fr .25fr .25fr;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
+.divTHC div,
 .daysF {
-    grid-template-columns: 1fr;
-    grid-template-rows: .25fr .25fr;
+    border: 2px solid #b2cb00;
+}
+
+/*- forcast -*/
+.daysF {
     background-color: #b2cb00;
 }
 
-#day1, #day2, #day3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin: 0;
-}
-
-
-
 /*- call to action -*/
-.cta {
-    position: relative;
-    margin:0 auto;
-    max-width: 1000px;
-}
-
 .cta img {
     width: 100%;
     border-top: 5px solid #036cad;
     border-bottom: 5px solid #036cad;
 }
 .ctaText{
-    position: absolute;
-    top:15px;
-    right: 15px;
-    box-sizing: content-box;
-    background:rgba(2, 223, 219, .5);
+    background:rgba(2, 223, 219, 1);
     border: 2px solid #036cad;
-    box-shadow: 0 0 30px #000e26;
     padding: 10px;
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
+}
+
+.ctaText {
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.ctaText h3 {
+    display:none;
+}
+
+.ctaText h5 {
+    margin: 0;
+    padding: 5px;
 }
 
 /*- Table -*/
