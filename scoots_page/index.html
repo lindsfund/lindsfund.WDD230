@@ -57,6 +57,14 @@
                 <h4> Conditions: </h4>
                 <img id="condition" src="#" alt="#">
             </div>
+            <div>
+                <h4> Temp: </h4>
+                <span id="currTemp"></span>
+            </div>
+            <div>
+                <h4> Humidity: </h4> 
+                <span id="humidity"></span>
+            </div>
             <section id="forecast">
                 <div class="daysF">
                     <h4 id="day1"></h4>
@@ -71,22 +79,29 @@
                     <span id="temp3"></span>
                 </div>
             </section>
-            <div>
-                <h4> Temp: </h4>
-                <span id="currTemp"></span>
-            </div>
-            <div>
-                <h4> Humidity: </h4> 
-                <span id="humidity"></span>
-            </div>
 
         </div>
         <div class="cta">
             <img src="images/scootersbeach1600.jpg" alt="scooters on cozumel beach" sizes="60vw"
                 srcset="images/scootersbeach500.jpg 500w, images/scootersbeach1200.jpg 1200w, images/scootersbeach1600.jpg 1600w">
-            <h3 class="ctaText">Call to Action</h3>
+            <div class="ctaText"> 
+                <h3>Feel more wind in your hair and sun on your face.</h3> 
+                <h5>Rent a scooter for your Cozumel vacation today and recieve special reservation pricing.</h5>
+            </div>
         </div>
-        <div class="rentalSum"></div>
+        <div class="rentalSum">
+            <table class="rentalGrid">
+                <h2>Rental Summary</h2>
+                <tbody class="info">
+                    <tr class="typeHead">
+                        <th>Rental Type</th>
+                        <th>Full Day <br> Reserve</th>
+                        <th>Full Day <br> Walk-in</th>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
     </main>
     <footer>
         <section class="contact">
@@ -124,6 +139,7 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/rental.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,56 @@
+{ "rentals" : 
+    {"scooters" : [
+        {
+            "type":"Honda Metro Scooter",
+            "maxperson" : "1",
+            "reserveFD" : "30",
+            "reserveHD" : "20",
+            "walkinFD" : "30",
+            "walkinHD" : "20"
+        },
+        {
+            "type":"Honda Dio Scooter",
+            "maxperson" : "2",
+            "reserveFD" : "40",
+            "reserveHD" : "30",
+            "walkinFD" : "45",
+            "walkinHD" : "35"
+        },{
+            "type":"Honda MPCX150 Scooter",
+            "maxperson" : "2",
+            "reserveFD" : "50",
+            "reserveHD" : "40",
+            "walkinFD" : "55",
+            "walkinHD" : "45"
+        }
+    ],
+    "sidebyside" : [
+        {
+            "type":"Honda Pioneer 1000",
+            "maxperson" : "4",
+            "reserveFD" : "70",
+            "reserveHD" : "50",
+            "walkinFD" : "80",
+            "walkinHD" : "60"
+        }
+    ],
+    "jeep" : [
+        {
+            "type":"Wrangler - 4 door w/ AC",
+            "maxperson" : "5",
+            "reserveFD" : "100",
+            "reserveHD" : "70",
+            "walkinFD" : "125",
+            "walkinHD" : "85"
+        },
+        {
+            "type":"Wrangler - 2 door",
+            "maxperson" : "4",
+            "reserveFD" : "85",
+            "reserveHD" : "60",
+            "walkinFD" : "90",
+            "walkinHD" : "70"
+        }
+        
+    ]}
+}
