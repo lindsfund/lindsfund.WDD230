@@ -56,16 +56,18 @@
                 have your payment information ready. (For more information about payment please see our 
                 'Rentals' page.) Also, there will be paperwork that we will need to be e-signed before we can hold 
                 your vehicle. Please provide an email address or have another form of contact avaiable for 
-                electronic paperwork.  We look forward to working with you and thank you for using ~Scoots.
+                electronic paperwork.  Lastly, proof of legal ability to drive will be necessary so please have
+                your Drivers License ready as well.We look forward to working with you and thank you 
+                for using ~Scoots.
             </p>
 
         </div>
         <form method="get" action="confirm.html">
             <fieldset>
                 <legend>Rental Details</legend>
-                <label>Start Date: <input type="date" name="sDate" required></label>
+                <label>*Start Date: <input type="date" name="sDate" required></label>
                 <label>End Date: <input type="date" name="eDate"></label>
-                <label>Vehicle: <input list= "vehicleType" name="vehicleType" required></label>
+                <label>*Vehicle: <input list= "vehicleType" name="vehicleType" required></label>
                 <datalist id="vehicleType">
                     <option value="Metro Scooter"></option>
                     <option value="Dio Scooter"></option>
@@ -79,40 +81,23 @@
             </fieldset>
             <fieldset>
                 <legend>Personal Information</legend>
-                <label>Full Name: <input type="text" name="fullName" required pattern="[A-Z a-z]+" minlength="5"></label>
-                <label>Phone Number: <input type="tel" name="phone" required placeholder="1235551234"></label>
+                <label>*Full Name: <input type="text" name="fullName" required pattern="[A-Z a-z]+" minlength="5"></label>
+                <label>*Phone Number: <input type="tel" name="phone" required placeholder="1235551234"></label>
                 <label>Email address: <input type="email" name="email" placeholder="someone@email.com"></label>
-                <label>State or Country: <input type="text" name="location" required></label>
+                <label>*State or Country: <input type="text" name="location" required></label>
             </fieldset>
         </form>
     </main>
     <footer>
         <section class="contact">
             <div class="locMain">
-                <h3>Main Phone: 983-555-1111</h3>
-                <h3>emailaddress@email.com</h3>
-            </div>
-            <div class="loc1">
-                <h3>Location #1</h3>
-                <address> 
-                    1234 Beach Ave <br>
-                    Chetumal, Quintana Roo 77000 Mexico
-                </address>
-                <p>983-555-0159</p>
-            </div>
-            <div class="loc2">
-                <h3>Location #2</h3>
-                <address> 
-                    5678 Pier St. <br>
-                    Chetumal, Quintana Roo 77000 Mexico
-                </address>
-                <p>983-555-0225</p>
-            </div>
-            <div class="googleMap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135417.89965357212!2d-87.02071661667591!3d20.400029115001967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59db794bdb97%3A0x338a588d8839aac!2sParque%20Quintana%20Roo%2C%20Calle%2013%20Sur%2C%20Gonzalo%20Guerrero%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607031463416!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <h3>Main Phone:</h3>
+                <p>983-555-1111</p>
+                <h3>address@email.com</h3>
             </div>
             <div class="footBar">
-                <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span id="CurrentDate"></span></p>
+                <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span
+                        id="CurrentDate"></span></p>
             </div>
         </section>
     </footer>

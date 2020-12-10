@@ -162,7 +162,7 @@ nav ul.hide {
 /*------ FOOTER ------*/
 .contact {
     display: grid;
-    grid-template-rows: .5fr 1fr 1fr .5fr;
+    grid-template-rows: .5fr .5fr;
     grid-gap: 1rem;
     max-width: 1100px;
     margin: 0 auto;
@@ -178,19 +178,9 @@ nav ul.hide {
     margin: 0;
 }
 
-.contact address {
-    margin: 10px auto;
+.contact p {
+    margin: 0;
 }
-
-.googleMap {
-    display: none;
-}
-
-.locMain {
-    text-align: center;
-}
-
-
 
 /*------ HOME PAGE ----*/
 /*- current weather -*/
@@ -310,6 +300,8 @@ nav ul.hide {
     border: 2px solid black;
     border-radius: 10px;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #card th {
@@ -410,9 +402,28 @@ nav ul.hide {
 form {
     padding: 5px;
     margin: 5px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
     border-radius: 10px;
-    
+    margin: 0;
+    padding: 5px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+    padding: .25rem;
+}
+
+input,
+textarea {
+    margin: .5rem;
 }
 
 /*------ CLEAR FIX ------*/
