@@ -25,6 +25,11 @@ footer {
 }
 
 /*------ TEXT FORMATTING ------*/
+.pageTitle{
+    font-size:2.5rem;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
@@ -185,15 +190,7 @@ nav ul.hide {
     text-align: center;
 }
 
-/* .locMain h3:nth-child(1) {
-    display: grid;
-    align-items: end;
-}
 
-.locMain h3:nth-child(2) {
-    display: grid;
-    align-items: start;
-} */
 
 /*------ HOME PAGE ----*/
 /*- current weather -*/
@@ -235,6 +232,22 @@ nav ul.hide {
 .daysF {
     border: 2px solid #b2cb00;
 }
+/*- weather alert -*/
+#alert{
+    grid-column: span 3;
+    padding:20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color:white;
+    font-weight:bold;
+    float: right;
+    font-size: 22px;
+}
 
 /*- forcast -*/
 .daysF {
@@ -273,7 +286,7 @@ nav ul.hide {
 
 /*- Table -*/
 
-table, th, td {
+.rentalSum table, th, td {
     border: 1px solid #000e26;
     border-collapse: collapse;
     text-align: center;
@@ -291,6 +304,116 @@ table, th, td {
     background-color:#0597F2;
 }
 
+/*------ RENTAL PAGE -------*/
+/*- cards -*/
+#card table {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+#card th {
+    border: none;
+    border-bottom: 2px solid black;
+}
+.image td{
+ border: none;
+}
+
+.name {
+    background-color:#0597F2;
+}
+
+/*------ TOURS PAGE ------*/
+.tours {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 5px auto;
+}
+
+.tour1,
+.tour2,
+.tour3 {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+.tours h2 {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.tours p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.cozHis{
+    background-color: rgba(2, 223, 219, .5);
+}
+
+.cozHis h2 {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.cozHis a {
+    color: #0597F2;
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*------ CONTACT ------*/
+.locations {
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.locations iframe {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.locatInfo1,
+.locatInfo2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.locatInfo {
+    text-align: center;
+    background-color: rgba(2, 223, 219, .5);
+    border-top: 5px solid black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+}
+
+.locatInfo h2 {
+    margin: 0;
+    padding: 5px;
+}
+.locatInfo p {
+    margin: 0;
+    padding: 5px;
+}
+
+form {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
 
 /*------ CLEAR FIX ------*/
 .clearfix:after {

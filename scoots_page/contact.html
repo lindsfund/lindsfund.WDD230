@@ -7,74 +7,92 @@
     <meta name="description" content="contact page for weather site">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-   
+
     <title>Scoots Webiste</title>
 </head>
+
 <body>
     <header>
         <section class="wrapper">
-        <picture class="logo">
-            <img src="images/logo.png" alt="Scoots logo">
-        </picture>
-        <div class="quickCont">
-            <h2>Scoots Contact</h2>
-            <h3>983-555-1111</h3>
-            <h3>emailaddress@email.com</h3>
-        </div>
-        <div class="socMedia">
-           <a href="https://www.facebook.com/" target="blank"> <img src="images/facebook.png" alt="facebook icon"> </a>
-           <a href="https://www.instagram.com/" target="blank"> <img src="images/instagram.png" alt="instagram icon"> </a>
-           <a href="https://www.youtube.com/" target="blank"> <img src="images/youtube.png" alt="youtube icon"> </a>
-        </div>
-    </section>
+            <picture class="logo">
+                <img src="images/logo.png" alt="Scoots logo">
+            </picture>
+            <div class="quickCont">
+                <h2>Scoots Contact</h2>
+                <h3>983-555-1111</h3>
+                <h3>emailaddress@email.com</h3>
+            </div>
+            <div class="socMedia">
+                <a href="https://www.facebook.com/" target="blank"> <img src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/" target="blank"> <img src="images/instagram.png"
+                        alt="instagram icon"> </a>
+                <a href="https://www.youtube.com/" target="blank"> <img src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+        </section>
     </header>
-    <nav class = "clearfix">
+    <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Navigation </button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <li><a href="rentals.html">Rental Info</a></li>
-            <li ><a href="reservations.html">Make a Reservation</a></li>
+            <li><a href="reservations.html">Make a Reservation</a></li>
             <li><a href="tours.html">Take a Tour</a></li>
             <li class="active"><a href="#">Contact Us</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <h1 class="pageTitle"> Contact Us Here</h1>
+        <div class="locations">
+            <div class="locatInfo1">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.370431867579!2d-86.95904119012089!3d20.491035465689098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57610d79bb8b%3A0xdf096619119fe050!2sCalle%2031%20Sur%2C%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607545633121!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                <div class="locatInfo">
+                    <h2>Location #1</h2>
+                    <address> 1234 Calle 31 Sur <br> San Miguel de Cozumel, Q.R.</address>
+                    <p>983-555-0159</p>
+                </div>
+            </div>
+            <div class="locatInfo2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8901.27678879179!2d-87.02331677396037!3d20.38546461964932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e53cb91e7543d%3A0xd681464d7ef5b8d9!2sCozumel%2C%2077600%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607546130202!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                <div class="locatInfo">
+                    <h2>Location #2</h2>
+                    <address>1234 Carretera Sur <br> San Miguel de Cozumel, Q.R.</address>
+                    <p>983-555-0225</p>
+                </div>
+            </div>
+        </div>
+        <form action="">
+            Enter form info here
+        </form>
+    </main>
     <footer>
         <section class="contact">
             <div class="locMain">
                 <h3>Main Phone: 983-555-1111</h3>
                 <h3>emailaddress@email.com</h3>
             </div>
-            <div class="loc1">
-                <h3>Location #1</h3>
-                <address> 
-                    1234 Beach Ave <br>
-                    Chetumal, Quintana Roo 77000 Mexico
-                </address>
-                <p>983-555-0159</p>
-            </div>
-            <div class="loc2">
-                <h3>Location #2</h3>
-                <address> 
-                    5678 Pier St. <br>
-                    Chetumal, Quintana Roo 77000 Mexico
-                </address>
-                <p>983-555-0225</p>
-            </div>
-            <div class="googleMap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135417.89965357212!2d-87.02071661667591!3d20.400029115001967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59db794bdb97%3A0x338a588d8839aac!2sParque%20Quintana%20Roo%2C%20Calle%2013%20Sur%2C%20Gonzalo%20Guerrero%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607031463416!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
             <div class="footBar">
-                <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span id="CurrentDate"></span></p>
+                <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span
+                        id="CurrentDate"></span></p>
             </div>
         </section>
     </footer>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
