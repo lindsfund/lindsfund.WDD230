@@ -44,7 +44,48 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <h1 class="pageTitle">Make a Reservation</h1>
+
+        <div>
+            <h2> Rental Agreement Info</h2>
+            <h4>So you want to make a reservation!?</h4>
+            <p> Please fill out the form below and one of our representatives will call you within one hour. 
+                During the call we will answer any questions you may have and we will go over all the legal
+                information. You will be required to pay a $50 deposit in order to hold your vehicle so please
+                have your payment information ready. (For more information about payment please see our 
+                'Rentals' page.) Also, there will be paperwork that we will need to be e-signed before we can hold 
+                your vehicle. Please provide an email address or have another form of contact avaiable for 
+                electronic paperwork.  We look forward to working with you and thank you for using ~Scoots.
+            </p>
+
+        </div>
+        <form method="get" action="confirm.html">
+            <fieldset>
+                <legend>Rental Details</legend>
+                <label>Start Date: <input type="date" name="sDate" required></label>
+                <label>End Date: <input type="date" name="eDate"></label>
+                <label>Vehicle: <input list= "vehicleType" name="vehicleType" required></label>
+                <datalist id="vehicleType">
+                    <option value="Metro Scooter"></option>
+                    <option value="Dio Scooter"></option>
+                    <option value="HMPCX150 Scooter"></option>
+                    <option value="Pioneer 1000"></option>
+                    <option value="Jeep Wrangler-4dr"></option>
+                    <option value="Jeep Wrangler-2dr"></option>
+                </datalist>
+                <label>Number of Vehicles: <input type="number" name="number"></label>
+                <label>Special Accomidations: <input type="text" name="specAcc"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Full Name: <input type="text" name="fullName" required pattern="[A-Z a-z]+" minlength="5"></label>
+                <label>Phone Number: <input type="tel" name="phone" required placeholder="1235551234"></label>
+                <label>Email address: <input type="email" name="email" placeholder="someone@email.com"></label>
+                <label>State or Country: <input type="text" name="location" required></label>
+            </fieldset>
+        </form>
+    </main>
     <footer>
         <section class="contact">
             <div class="locMain">
