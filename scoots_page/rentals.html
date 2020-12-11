@@ -7,38 +7,44 @@
     <meta name="description" content="Rental Page for weather site">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-   
+
     <title>Scoots Webiste</title>
 </head>
+
 <body>
     <header>
         <section class="wrapper">
-        <picture class="logo">
-            <img src="images/logo.png" alt="Scoots logo">
-        </picture>
-        <div class="quickCont">
-            <h2>Scoots Contact</h2>
-            <h3>983-555-1111</h3>
-            <h3>emailaddress@email.com</h3>
-        </div>
-        <div class="socMedia">
-           <a href="https://www.facebook.com/" target="blank"> <img src="images/facebook.png" alt="facebook icon"> </a>
-           <a href="https://www.instagram.com/" target="blank"> <img src="images/instagram.png" alt="instagram icon"> </a>
-           <a href="https://www.youtube.com/" target="blank"> <img src="images/youtube.png" alt="youtube icon"> </a>
-        </div>
-    </section>
+            <picture class="logo">
+                <img src="images/logo.png" alt="Scoots logo">
+            </picture>
+            <div class="quickCont">
+                <h2>Scoots Contact</h2>
+                <h3>983-555-1111</h3>
+                <h3>emailaddress@email.com</h3>
+            </div>
+            <div class="socMedia">
+                <a href="https://www.facebook.com/" target="blank"> <img src="images/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/" target="blank"> <img src="images/instagram.png"
+                        alt="instagram icon"> </a>
+                <a href="https://www.youtube.com/" target="blank"> <img src="images/youtube.png" alt="youtube icon">
+                </a>
+            </div>
+        </section>
     </header>
-    <nav class = "clearfix">
+    <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Navigation </button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li  class="active"><a href="#">Rental Info</a></li>
+            <li class="active"><a href="#">Rental Info</a></li>
             <li><a href="reservations.html">Make a Reservation</a></li>
             <li><a href="tours.html">Take a Tour</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -46,50 +52,26 @@
     </nav>
     <main>
         <h1 class="pageTitle">Rental Info</h1>
-       <div id="card">
-           <table>
-            <tr class="image">
-                <td colspan="4"><img src="#" alt="#"></td>
-               </tr>
-               <tr>
-                   <th colspan="4"  class="name">Honda</th>
-               </tr>
-               <tr>
-                   <th colspan="2">Reserve</th>
-                   <th colspan="2">Walk In</th>
-               </tr>
-               <tr>
-                   <td>Half Day</td>
-                   <td>Full Day</td>
-                   <td>Half Day</td>
-                   <td>Full Day</td>
-               </tr>
-               <tr>
-                   <td class="rhd">$</td>
-                   <td class="rfd">$</td>
-                   <td class="wihd">$</td>
-                   <td class="wifd">$</td>
-               </tr>
-               <tr>
-                   <td colspan="4" class="maxRide"> Max riders: 1</td>
-               </tr>
-           </table>
-       </div>
-       <div class="rentSpec">
-           <ul>
-               <li> A $50 security desposit is required to confirm your reservation.</li>
-               <li>A valid drivers license is required in hand at time of rental.</li>
-               <li>No one under 12 years of age is allowed to ride on the scooters.</li>
-               <li>Fuel Charge not included.</li>
-               <li>Unlimited mileage.</li>
-               <li>Liability insurance is free of charge.</li>
-               <li>Reservations rate requires 24 hour prior notification.</li>
-               <li>Free delivery of vehicle to a Cozumel hotel, Airbnb, or private residence for rentals 2 or more days.</li>
-               <li> Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-               <li>Rentals may be returned to either location.</li>
-           </ul>
-       </div>
-       </main>
+        <div id="cards">
+            <table class="scooters">
+            </table>
+        </div>
+        <div class="rentSpec">
+            <ul>
+                <li> A $50 security desposit is required to confirm your reservation.</li>
+                <li>A valid drivers license is required in hand at time of rental.</li>
+                <li>No one under 12 years of age is allowed to ride on the scooters.</li>
+                <li>Fuel Charge not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hour prior notification.</li>
+                <li>Free delivery of vehicle to a Cozumel hotel, Airbnb, or private residence for rentals 2 or more
+                    days.</li>
+                <li> Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>Rentals may be returned to either location.</li>
+            </ul>
+        </div>
+    </main>
     <footer>
         <section class="contact">
             <div class="locMain">
@@ -106,4 +88,5 @@
     <script src="js/scripts.js"></script>
     <script src="js/rentalsFull.js"></script>
 </body>
+
 </html>

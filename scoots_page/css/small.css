@@ -296,7 +296,7 @@ nav ul.hide {
 
 /*------ RENTAL PAGE -------*/
 /*- cards -*/
-#card table {
+#cards table {
     border: 2px solid black;
     border-radius: 10px;
     border-collapse: collapse;
@@ -304,7 +304,7 @@ nav ul.hide {
     margin-right: auto;
 }
 
-#card th {
+#cards th {
     border: none;
     border-bottom: 2px solid black;
 }
