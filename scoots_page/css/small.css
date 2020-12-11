@@ -296,12 +296,10 @@ nav ul.hide {
 
 /*------ RENTAL PAGE -------*/
 /*- cards -*/
-#cards table {
+.scooters {
+    margin: 10px auto;
     border: 2px solid black;
-    border-radius: 10px;
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #cards th {
@@ -315,6 +313,16 @@ nav ul.hide {
 .name {
     background-color:#0597F2;
 }
+
+.type {
+    border-bottom: 2px solid black;
+}
+
+.riders {
+    border-top: 2px solid black;
+}
+
+
 
 /*------ TOURS PAGE ------*/
 .tours {

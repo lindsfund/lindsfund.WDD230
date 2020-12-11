@@ -1,6 +1,7 @@
 { "rentals" : 
     [
         {
+            "photo" : "metro.jpg",
             "type":"Honda Metro Scooter",
             "maxperson" : "1",
             "reserveFD" : "$30",
@@ -9,6 +10,7 @@
             "walkinHD" : "$20"
         },
         {
+            "photo" : "dio.jpg",
             "type":"Honda Dio Scooter",
             "maxperson" : "2",
             "reserveFD" : "$40",
@@ -16,6 +18,7 @@
             "walkinFD" : "$45",
             "walkinHD" : "$35"
         },{
+            "photo" : "mpcx.jpg",
             "type":"Honda MPCX150 Scooter",
             "maxperson" : "2",
             "reserveFD" : "$50",
@@ -25,6 +28,7 @@
         },
     
         {
+            "photo" : "pioneer.jpg",
             "type":"Honda Pioneer 1000",
             "maxperson" : "4",
             "reserveFD" : "$70",
@@ -33,6 +37,7 @@
             "walkinHD" : "$60"
         },
         {
+            "photo" : "wrangler4.jpg",
             "type":"Wrangler - 4 door w/ AC",
             "maxperson" : "5",
             "reserveFD" : "$100",
@@ -41,6 +46,7 @@
             "walkinHD" : "$85"
         },
         {
+            "photo" : "wrangler2.jpg",
             "type":"Wrangler - 2 door",
             "maxperson" : "4",
             "reserveFD" : "$85",
