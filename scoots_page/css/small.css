@@ -303,7 +303,6 @@ nav ul.hide {
 }
 
 #cards th {
-    border: none;
     border-bottom: 2px solid black;
 }
 .image td{
@@ -314,7 +313,7 @@ nav ul.hide {
     background-color:#0597F2;
 }
 
-.type {
+.day {
     border-bottom: 2px solid black;
 }
 
