@@ -34,27 +34,16 @@ fetch(apiURL)
 
         }
 
-        function alertCheck() {
-            for (x=0; x=jsonObject.length; x++){
-                
-                if (jsonObject.includes('alerts')) {
-                    output = 1;
-                } 
-            }
-            
+        if ('alert' in jsonObject) {
+
+            document.querySelector('#alert').style.display = "block";
+            let alert = document.querySelector('#alert');
+            let event = document.createElement('p');
+
+            event.innerHTML = jsonObject.alert.event;
+
+            alert.appendChild(event);
+        } else {
+            document.querySelector('#alert').style.display = "none";
         }
-        console.log(alertCheck);
-        
-        if(alertCheck === 1) {
-            let alertDiv = document.getElementById('alert');
-            let alertInfo = document.createElement('p');
-
-            alertInfo.innerHTML = alert.event;
-
-            alertDiv.appendChild(alertInfo);
-        }else{
-            document.getElementById('alert').className = "hide";
-        }
-        
-
     });

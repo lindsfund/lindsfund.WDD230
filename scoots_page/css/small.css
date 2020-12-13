@@ -171,7 +171,7 @@ nav ul.hide {
 .contact div {
     text-align: center;
     border: 1px solid #B2CB00;
-    padding: 10px;
+    padding: 10px 2px;
 }
 
 .contact h3 {
@@ -218,26 +218,31 @@ nav ul.hide {
     padding: 10px;
 }
 
-.divTHC div,
+.tempHumCon,
 .daysF {
     border: 2px solid #b2cb00;
 }
 /*- weather alert -*/
 #alert{
     grid-column: span 3;
-    padding:20px;
+    padding:10px;
     background-color: #f44336;
     color: white;
     margin-bottom: 15px;
 }
 
 .closebtn {
-    margin-left: 15px;
     color:white;
     font-weight:bold;
     float: right;
     font-size: 22px;
 }
+
+#alert h3,
+#alert p {
+    margin: 0 auto;
+    padding: 2px 0;
+} 
 
 /*- forcast -*/
 .daysF {
@@ -249,10 +254,11 @@ nav ul.hide {
     width: 100%;
     border-top: 5px solid #036cad;
     border-bottom: 5px solid #036cad;
+    margin-top: 7px;
 }
 .ctaText{
     background:rgba(2, 223, 219, 1);
-    border: 2px solid #036cad;
+    border: 3px solid #036cad;
     padding: 10px;
     max-width: 90%;
     margin: 0 auto;
@@ -296,19 +302,22 @@ nav ul.hide {
 
 /*------ RENTAL PAGE -------*/
 /*- cards -*/
+#cards th {
+    border-bottom: 2px solid black;
+}
+
 .scooters {
+    max-width: 300px;
     margin: 10px auto;
     border: 2px solid black;
     border-collapse: collapse;
 }
 
-#cards th {
-    border-bottom: 2px solid black;
-}
-.image td{
- border: none;
-}
+.scooters img {
+    width: 100%;
+    max-width: 300px;
 
+}
 .name {
     background-color:#0597F2;
 }
@@ -321,7 +330,79 @@ nav ul.hide {
     border-top: 2px solid black;
 }
 
+/*------ RESERVATION PAGE ------*/
+.rentAgree h2 {
+    padding: 10px;
+    margin: 2px auto;
+    text-align: center;
+    background-color: #0597F2; 
+}
 
+.rentAgree h4 {
+    text-align: center;
+    padding: 5px;
+    margin: 2px auto;
+    border-bottom: 2px solid #0597F2;
+}
+
+.rentAgree p {
+    padding: 5px 1rem;
+    margin: 1rem auto;
+}
+
+/*-- form -- */
+form {
+    margin: 5px auto;
+    padding: 5px;
+    border-top: 2px solid #0597F2;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b2cb00;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 550px;
+}
+
+legend {
+    color: #036CAD;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #036CAD;
+    text-align: start;
+    padding: .25rem;
+}
+
+input,
+textarea {
+    border: 1px solid #b2cb00;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .5rem;
+    line-height: 45px;
+    color: #036CAD;
+}
+
+form input:hover{
+    border: 3px solid #036cad;
+}
+form input:required {
+    border-left: 5px solid #ff4c91;
+}
+
+form input:required:valid {
+    border-left: 5px solid #b2cb00;
+}
 
 /*------ TOURS PAGE ------*/
 .tours {
@@ -329,6 +410,8 @@ nav ul.hide {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     margin: 5px auto;
+    padding: 5px;
+
 }
 
 .tour1,
@@ -406,32 +489,6 @@ nav ul.hide {
     padding: 5px;
 }
 
-form {
-    padding: 5px;
-    margin: 5px;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 0;
-    padding: 5px;
-}
-
-label {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    text-align: center;
-    padding: .25rem;
-}
-
-input,
-textarea {
-    margin: .5rem;
-}
 
 /*------ CLEAR FIX ------*/
 .clearfix:after {

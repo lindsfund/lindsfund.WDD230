@@ -1,26 +1,26 @@
-@media only screen and (min-width: 700px){
-   /*------ NAVIGATION -------*/
-   
+@media only screen and (min-width: 700px) {
+    /*------ NAVIGATION -------*/
+
     nav button {
         display: none;
     }
-    
+
     nav ul.hide {
         list-style-type: none;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
         align-content: space-evenly;
-        padding:0 5px;
+        padding: 0 5px;
     }
 
-    nav ul  {
+    nav ul {
         list-style-type: none;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
         align-content: space-evenly;
-        padding:0 5px;
+        padding: 0 5px;
         border-top: 5px solid #02dfdb;
     }
 
@@ -29,11 +29,11 @@
         padding: 10px;
         justify-content: space-evenly;
     }
-    
+
     nav ul li a {
         border: none;
         padding: .4rem 1rem;
-        
+
     }
 
     nav ul .active {
@@ -54,14 +54,14 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-        
+
 
     /*------ HEADER ------*/
-    
+
 
     /*------ FOOTER ------*/
     .contact {
-        grid-template-rows: .5fr 1fr .5fr;
+        grid-template-rows: .5fr .5fr;
     }
 
 
@@ -69,71 +69,101 @@
         grid-column: span 2;
     }
 
-    .loc1 {
-        grid-column: 1;
-    }
-
-    .loc2 {
-        grid-column: 2;
-    }
-
     .footBar {
         grid-column: span 2;
     }
+
     /*------ HOME PAGE ----*/
     /*- weather info -*/
-     .currWeather {
-         display:grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-template-rows: .5fr .5fr .5fr;
-     }
-
-     .currWeather h2 {
-         grid-column: span 3;
-     }
-
-     .divTHC {
+    .currWeather {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .5fr .5fr .5fr;
+    }
+
+    .currWeather h2 {
+        grid-column: span 3;
+    }
+
+    .divTHC,
+    #forecast {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
         grid-template-rows: 1fr;
         grid-column: span 3;
-        align-content: center;
-     }
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0;
 
+    }
 
-     #forecast {
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-column: span 3;
-         align-content: center;
-         grid-template-rows: 1fr;
-         padding-top:15px;
-         border-top: 2px solid #036cad;
-     }
+    .tempHumCon {
+        padding: 5px 0;
+    }
+
+    .daysF {
+        padding: 5px 0;
+    }
 
     /*- call to action -*/
     .cta {
         position: relative;
-        margin:0 auto;
+        margin: 0 auto;
         max-width: 1000px;
     }
 
     .ctaText h3 {
-        display:block;
-        margin:0;
+        display: block;
+        margin: 0;
         padding: 5px;
         font-style: italic;
     }
 
 
-    .ctaText{
+    .ctaText {
         position: absolute;
-        top:15px;
+        top: 25px;
         right: 15px;
-        box-sizing: content-box;
-        background:rgba(2, 223, 219, .5);
-        box-shadow: 0 0 30px #000e26;
+        background: rgba(2, 223, 219, .5);
     }
 
-    
+    /*-- Table --*/
+    .rentalGrid {
+        font-size: 1.2rem;
+    }
+
+    .typeHead th {
+        padding: 10px;
+    }
+
+    .vehiS {
+        padding: 10px;
+    }
+
+    .vehiS td {
+        padding: 5px 10px;
+    }
+
+    /*------ RENTAL PAGE ------*/
+    #cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-row-gap: 5px;
+        grid-column-gap: 10px;
+        margin: 10px;
+    }
+
+    /*------ RESERVATION PAGE ------*/
+    .rentAgree p {
+        max-width: 800px;
+    }
+
+    input,
+    textarea {
+        line-height: 25px;
+    }
+
+
+
 
 
 }

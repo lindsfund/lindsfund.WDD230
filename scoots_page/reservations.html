@@ -47,7 +47,7 @@
     <main>
         <h1 class="pageTitle">Make a Reservation</h1>
 
-        <div>
+        <div class="rentAgree">
             <h2> Rental Agreement Info</h2>
             <h4>So you want to make a reservation!?</h4>
             <p> Please fill out the form below and one of our representatives will call you within one hour. 
@@ -57,17 +57,17 @@
                 'Rentals' page.) Also, there will be paperwork that we will need to be e-signed before we can hold 
                 your vehicle. Please provide an email address or have another form of contact avaiable for 
                 electronic paperwork.  Lastly, proof of legal ability to drive will be necessary so please have
-                your Drivers License ready as well.We look forward to working with you and thank you 
+                your Drivers License ready as well.  We look forward to working with you and thank you 
                 for using ~Scoots.
             </p>
 
         </div>
-        <form method="get" action="confirm.html">
+        <form method="get" action="confirm.html" class="resForm">
             <fieldset>
-                <legend>Rental Details</legend>
-                <label>*Start Date: <input type="date" name="sDate" required></label>
-                <label>End Date: <input type="date" name="eDate"></label>
-                <label>*Vehicle: <input list= "vehicleType" name="vehicleType" required></label>
+                <legend> Rental Details </legend>
+                <label>* Start Date: <input type="date" name="sDate" required></label>
+                <label> End Date: <input type="date" name="eDate"></label>
+                <label>* Vehicle: <input list= "vehicleType" name="vehicleType" required ></label>
                 <datalist id="vehicleType">
                     <option value="Metro Scooter"></option>
                     <option value="Dio Scooter"></option>
@@ -76,15 +76,16 @@
                     <option value="Jeep Wrangler-4dr"></option>
                     <option value="Jeep Wrangler-2dr"></option>
                 </datalist>
-                <label>Number of Vehicles: <input type="number" name="number"></label>
-                <label>Special Accomidations: <input type="text" name="specAcc"></label>
+                <label> Number of Vehicles: <input type="number" name="number"></label>
+                <label> Special Accommodations: <textarea name="specAcc" id="specAcc" rows="3"></textarea> </label>
             </fieldset>
             <fieldset>
-                <legend>Personal Information</legend>
-                <label>*Full Name: <input type="text" name="fullName" required pattern="[A-Z a-z]+" minlength="5"></label>
-                <label>*Phone Number: <input type="tel" name="phone" required placeholder="1235551234"></label>
-                <label>Email address: <input type="email" name="email" placeholder="someone@email.com"></label>
-                <label>*State or Country: <input type="text" name="location" required></label>
+                <legend> Personal Information</legend>
+                <label>* Full Name: <input type="text" name="fullName" required pattern="[A-Z a-z]+" minlength="5"></label>
+                <label>* Phone Number: <input type="tel" name="phone" required placeholder="1235551234"></label>
+                <label> Email address: <input type="email" name="email" placeholder="someone@email.com"></label>
+                <label>* State or Country: <input type="text" name="location" required></label>
+                <label>  Cruise Line (if applicable): <input type="text" name="cruiseLine"></label>
             </fieldset>
         </form>
     </main>
@@ -93,7 +94,7 @@
             <div class="locMain">
                 <h3>Main Phone:</h3>
                 <p>983-555-1111</p>
-                <h3>address@email.com</h3>
+                <h3></h3>address@email.com</h2>
             </div>
             <div class="footBar">
                 <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span
