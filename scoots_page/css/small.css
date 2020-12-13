@@ -330,6 +330,11 @@ nav ul.hide {
     border-top: 2px solid black;
 }
 
+.rentSpec ul {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 /*------ RESERVATION PAGE ------*/
 .rentAgree h2 {
     padding: 10px;
