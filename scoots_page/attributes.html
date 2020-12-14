@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rental Page for weather site">
+    <meta name="description" content="Home Page for weather site">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -43,32 +43,15 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Navigation </button>
         <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="#">Rental Info</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="rentals.html">Rental Info</a></li>
             <li><a href="reservations.html">Make a Reservation</a></li>
             <li><a href="tours.html">Take a Tour</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
-        <h1 class="pageTitle">Rental Info</h1>
-        <div id="cards">
-        </div>
-        <div class="rentSpec">
-            <ul>
-                <li> A $50 security desposit is required to confirm your reservation.</li>
-                <li>A valid drivers license is required in hand at time of rental.</li>
-                <li>No one under 12 years of age is allowed to ride on the scooters.</li>
-                <li>Fuel Charge not included.</li>
-                <li>Unlimited mileage.</li>
-                <li>Liability insurance is free of charge.</li>
-                <li>Reservations rate requires 24 hour prior notification.</li>
-                <li>Free delivery of vehicle to a Cozumel hotel, Airbnb, or private residence for rentals 2 or more
-                    days.</li>
-                <li> Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-                <li>Rentals may be returned to either location.</li>
-            </ul>
-        </div>
+        
     </main>
     <footer>
         <section class="contact">
@@ -79,12 +62,13 @@
             </div>
             <div class="footBar">
                 <p>&copy; ~Scoots | <a href="attribution.html" target="blank">Attributions</a> | Lindsey Fund | <span
-                    id="CurrentDate"></span> | </p> <p>Last Updated:<span id="LastModified"></span></p>
+                        id="CurrentDate"></span> | </p> <p>Last Updated:<span id="LastModified"></span></p>
             </div>
         </section>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/rentalsFull.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/rental.js"></script>
 </body>
 
 </html>
