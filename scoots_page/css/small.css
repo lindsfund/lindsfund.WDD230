@@ -224,6 +224,7 @@ nav ul.hide {
 }
 /*- weather alert -*/
 #alert{
+
     grid-column: span 3;
     padding:10px;
     background-color: #f44336;
@@ -355,6 +356,25 @@ nav ul.hide {
     margin: 1rem auto;
 }
 
+.submitBtn {
+    display:block;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 550px;
+}
+
+.submitRes {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirm {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 /*-- form -- */
 form {
     margin: 5px auto;
@@ -483,6 +503,13 @@ form input:required:valid {
 
 .conForm {
     border-bottom: 2px solid #0597F2;
+}
+
+/*------ ATTRIBUTE PAGE ------*/
+.attrib {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /*------ CLEAR FIX ------*/
