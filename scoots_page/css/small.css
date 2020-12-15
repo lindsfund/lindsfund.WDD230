@@ -110,7 +110,7 @@ nav ul li a {
 }
 
 nav ul .active {
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 5px solid #02dfdb;
 }
 
@@ -233,13 +233,13 @@ nav ul.hide {
     display: none;
     grid-column: span 3;
     padding:10px;
-    background-color: #f44336;
-    color: white;
+    background-color: #ff4c91;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
 .closebtn {
-    color:white;
+    color:#ffffff;
     font-weight:bold;
     float: right;
     font-size: 22px;
@@ -310,13 +310,13 @@ nav ul.hide {
 /*------ RENTAL PAGE -------*/
 /*- cards -*/
 #cards th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000e26;
 }
 
 .scooters {
     max-width: 300px;
     margin: 10px auto;
-    border: 2px solid black;
+    border: 2px solid #000e26;
     border-collapse: collapse;
 }
 
@@ -330,11 +330,11 @@ nav ul.hide {
 }
 
 .day {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000e26;
 }
 
 .riders {
-    border-top: 2px solid black;
+    border-top: 2px solid #000e26;
 }
 
 .rentSpec ul {
@@ -453,7 +453,7 @@ form input:required:valid {
 .tour1,
 .tour2,
 .tour3 {
-    border: 1px solid black;
+    border: 1px solid #000e26;
     border-radius: 10px;
 }
 
