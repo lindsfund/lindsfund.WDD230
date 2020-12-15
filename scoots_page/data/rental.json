@@ -6,8 +6,8 @@
             "maxperson" : "1",
             "reserveFD" : "$30",
             "reserveHD" : "$20",
-            "walkinFD" : "$30",
-            "walkinHD" : "$20"
+            "walkinFD" : "$35",
+            "walkinHD" : "$25"
         },
         {
             "photo" : "dio300.jpg",

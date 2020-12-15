@@ -67,6 +67,11 @@ h6 {
 p {
     font-family: 'Open Sans', sans-serif;
 }
+
+a {
+    color: #000e26;
+    font-style: italic;
+}
 /*------ NAVIGATION ------*/
 nav {
     background-color: #02dfdb;
@@ -99,6 +104,7 @@ nav ul li {
 nav ul li a {
     color: #000e26;
     text-decoration: none;
+    font-style: normal;
     padding: 0.75rem;
     white-space: nowrap;
 }
