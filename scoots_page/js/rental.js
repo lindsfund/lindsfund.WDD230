@@ -3,7 +3,7 @@ const rentAPI = "data/rental.json"
 fetch(rentAPI)
     .then((response) => response.json())
     .then((jsonObject) => {
-        console.log(jsonObject); //comment out before submit
+        // console.log(jsonObject); //comment out before submit
    
         const rentals = jsonObject['rentals'];
         // console.log(rentals[0].type);

@@ -4,7 +4,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=20.4230&lon=
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsonObject) => {
-        console.log(jsonObject); //comment out before submit
+        // console.log(jsonObject); //comment out before submit
 
         var t = parseFloat(jsonObject.current.temp);
         // console.log(t); //comment out before submit
