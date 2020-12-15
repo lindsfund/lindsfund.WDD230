@@ -1,5 +1,4 @@
-// const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=64.835365&lon=-147.776749&units=imperial&appid=5c05f660a88c4f2c5c6b9a3e63c19638`; //Anchorage
-const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=20.4230&lon=-86.9223&units=imperial&appid=5c05f660a88c4f2c5c6b9a3e63c19638`; // Cozumel
+const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=20.4230&lon=-86.9223&units=imperial&appid=5c05f660a88c4f2c5c6b9a3e63c19638`;
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -35,17 +34,15 @@ fetch(apiURL)
 
         }
 
-        if ('alerts' in jsonObject) {
+        if ('alert' in jsonObject) {
 
             document.querySelector('#alert').style.display = "block";
             let alert = document.querySelector('#alert');
             let event = document.createElement('p');
 
-            event.innerHTML = jsonObject.alerts[0].event;
+            event.innerHTML = jsonObject.alert.event;
 
             alert.appendChild(event);
-            
-
         } else {
             document.querySelector('#alert').style.display = "none";
         }

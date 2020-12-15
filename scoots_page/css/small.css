@@ -224,7 +224,7 @@ nav ul.hide {
 }
 /*- weather alert -*/
 #alert{
-
+    display: none;
     grid-column: span 3;
     padding:10px;
     background-color: #f44336;
